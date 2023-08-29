@@ -1,0 +1,102 @@
+{
+    "id": "2944d934-fa6c-51ac-7ca2-09480123a0fe",
+    "name": "file",
+    "childrenElementList": [
+        {
+            "id": "3009f72b-73a0-04f5-6e31-e401db19592f",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            }
+        },
+        {
+            "id": "f453980b-3010-7192-066a-d76a03b3e113",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "Кнопка",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "3009f72b-73a0-04f5-6e31-e401db19592f"
+        },
+        {
+            "id": "97bdf66b-03bd-95a6-2ac8-0f0b8311ec9e",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "e77eef23-958d-ab12-b977-09d75f45391c"
+        },
+        {
+            "id": "e9af6c24-f32b-eda8-2405-3d07666ac1d0",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "e77eef23-958d-ab12-b977-09d75f45391c"
+        },
+        {
+            "id": "e77eef23-958d-ab12-b977-09d75f45391c",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "3009f72b-73a0-04f5-6e31-e401db19592f"
+        }
+    ],
+    "description": "file"
+}
