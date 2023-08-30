@@ -10,7 +10,7 @@ export const addFiles = (
   templateFiles: Templates[],
   outputFolder: string,
   name: string,
-  elementType: ComponentTypes,
+  element: TreeItem,
   chidlren: TreeItem[]
 ) => {
   templateFiles.forEach((inputFile) => {
@@ -21,7 +21,7 @@ export const addFiles = (
         addFilesIndex(name, outputFolder, fileContent);
         break;
       case "Layout":
-        addFilesLayout(name, outputFolder, fileContent, elementType, chidlren);
+        addFilesLayout(name, outputFolder, fileContent, element, chidlren);
         break;
     }
   });
@@ -38,7 +38,7 @@ export const initStructure = (
     const path = `${rootPath}/${name}`;
     createFolder(path);
     const chidlren = treeMap.get(item.id) || [];
-    addFiles(templateFiles, path, name, item.type, chidlren);
+    addFiles(templateFiles, path, name, item, chidlren);
     if (chidlren.length) {
       initStructure(path, treeMap, chidlren, templateFiles);
     }

@@ -1,1 +1,1 @@
-export { ?%ComponentName?% } from "./?%Path?%";
+export { ?%COMPONENT_NAME?% } from "./?%PATH?%";

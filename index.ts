@@ -9,6 +9,7 @@ import { Templates } from "./templates";
 
 const config = "./examples/component1.json";
 const outputPath = "./generated";
+
 const templatesComponent: Templates = "Layout";
 const indexComponent: Templates = "index";
 

@@ -118,3 +118,7 @@ export interface IFormConstructor extends IHistory {
 interface IHistory {
   history: any;
 }
+
+export interface Filled {
+  filled?: boolean;
+}

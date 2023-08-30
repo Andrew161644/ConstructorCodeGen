@@ -12,9 +12,10 @@ export type ElementId = string;
 
 export type TreeItem = {
   id: ElementId;
-  type: FormElementTypes | FormGroupsTypes;
+  type: ComponentTypes;
   props: ButtonProps | LayoutElementPropsStyles;
   parentId?: ElementId | undefined;
 };
 
 export type ComponentTypes = FormElementTypes | FormGroupsTypes;
+export type AllProps = ButtonProps | LayoutElementPropsStyles;

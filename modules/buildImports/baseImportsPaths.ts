@@ -1,8 +1,4 @@
-import {
-  ComponentTypes,
-  FormElementTypes,
-  FormGroupsTypes,
-} from "../../coreTypes";
+import { ComponentTypes } from "../../coreTypes";
 
 export type DependencyKeys = ComponentTypes | "React";
 

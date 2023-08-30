@@ -1,5 +1,5 @@
-?%Imports%?
+?%IMPORTS%?
 
-export const ?%ComponentName?% = () => {
-    return ?%ComponentType?%
+export const ?%COMPONENT_NAME?% = () => {
+    return ?%COMPONENT_TYPE?%
 };
