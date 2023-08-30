@@ -2,7 +2,7 @@ import { ButtonProps } from "./buttonTypes";
 import { FormElementTypes, FormGroupsTypes } from "./types";
 import { LayoutElementPropsStyles } from "./layoutTypes";
 
-export type Project = {
+export type ComponentModule = {
   name: string;
   description: string;
   childrenElementList: TreeItem[];

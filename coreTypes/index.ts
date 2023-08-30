@@ -1,6 +1,6 @@
 export {
   ElementId,
-  Project,
+  ComponentModule,
   TreeItem,
   ComponentTypes,
   AllProps,
