@@ -16,3 +16,5 @@ export type TreeItem = {
   props: ButtonProps | LayoutElementPropsStyles;
   parentId?: ElementId | undefined;
 };
+
+export type ComponentTypes = FormElementTypes | FormGroupsTypes;
