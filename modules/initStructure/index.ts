@@ -1,1 +1,1 @@
-export { createFilder, initStructure } from "./createFolders";
+export { createFolder, initStructure } from "./createFolders";

@@ -1,9 +1,9 @@
 {
-    "id": "2944d934-fa6c-51ac-7ca2-09480123a0fe",
-    "name": "file",
+    "id": "b94c667f-bc61-aafc-5971-ab4739d5d9bc",
+    "name": "ComponentName",
     "childrenElementList": [
         {
-            "id": "3009f72b-73a0-04f5-6e31-e401db19592f",
+            "id": "adb9e5f0-a4cb-bebb-1581-45d7337451e5",
             "type": "Layout",
             "isOuter": false,
             "props": {
@@ -22,23 +22,39 @@
             }
         },
         {
-            "id": "f453980b-3010-7192-066a-d76a03b3e113",
+            "id": "3be43aba-f5e1-d599-bf39-75df9dda1182",
             "type": "Button",
             "props": {
                 "size": "m",
                 "action": "none",
                 "disabled": false,
-                "label": "Кнопка",
+                "label": "AAAA",
                 "view": "primary",
                 "form": "default",
                 "width": "default",
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "3009f72b-73a0-04f5-6e31-e401db19592f"
+            "parentId": "b2c295b3-4d94-479f-b8ac-7d6aa46473d5"
         },
         {
-            "id": "97bdf66b-03bd-95a6-2ac8-0f0b8311ec9e",
+            "id": "47e2354c-418b-ca16-bc9e-74e004d8c1de",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "BBBB",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "b2c295b3-4d94-479f-b8ac-7d6aa46473d5"
+        },
+        {
+            "id": "b2c295b3-4d94-479f-b8ac-7d6aa46473d5",
             "type": "Layout",
             "isOuter": false,
             "props": {
@@ -55,10 +71,26 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "e77eef23-958d-ab12-b977-09d75f45391c"
+            "parentId": "b700391f-1a12-5e19-29eb-897a29a61543"
         },
         {
-            "id": "e9af6c24-f32b-eda8-2405-3d07666ac1d0",
+            "id": "dc867024-3a3f-b01c-9611-6ded32d8455d",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "CCCC",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "0a96fd54-2592-1a74-7d97-df3811aa5542"
+        },
+        {
+            "id": "0a96fd54-2592-1a74-7d97-df3811aa5542",
             "type": "Layout",
             "isOuter": true,
             "props": {
@@ -75,12 +107,80 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "e77eef23-958d-ab12-b977-09d75f45391c"
+            "parentId": "b700391f-1a12-5e19-29eb-897a29a61543"
         },
         {
-            "id": "e77eef23-958d-ab12-b977-09d75f45391c",
+            "id": "b700391f-1a12-5e19-29eb-897a29a61543",
             "type": "Layout",
             "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "adb9e5f0-a4cb-bebb-1581-45d7337451e5"
+        },
+        {
+            "id": "38e2128f-0804-54ab-7c6d-52384f0894ea",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "DDDD",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "ea3d408f-a750-420e-c3d9-31a4ef95a0e6"
+        },
+        {
+            "id": "af94d6e2-ae3f-056b-7684-347ac664c899",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "TT",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "ea3d408f-a750-420e-c3d9-31a4ef95a0e6"
+        },
+        {
+            "id": "f4d8ea06-b818-80e7-a055-3873a495dc52",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "VV",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "ea3d408f-a750-420e-c3d9-31a4ef95a0e6"
+        },
+        {
+            "id": "ea3d408f-a750-420e-c3d9-31a4ef95a0e6",
+            "type": "Layout",
+            "isOuter": true,
             "props": {
                 "constaProps": {
                     "flex": 1,
@@ -95,8 +195,8 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "3009f72b-73a0-04f5-6e31-e401db19592f"
+            "parentId": "adb9e5f0-a4cb-bebb-1581-45d7337451e5"
         }
     ],
-    "description": "file"
+    "description": "ComponentName"
 }

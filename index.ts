@@ -2,15 +2,16 @@ import { Project } from "./coreTypes";
 import {
   parseStringToProject,
   buildParentChildrenMap,
-  createFilder,
+  createFolder,
   initStructure,
 } from "./modules";
 
-const outputPath = "./build";
+const outputPath = "./generated";
 const templateDir = "./templates/";
 const templatesComponent = "Component.txt";
+const indexComponent = "index.txt";
 
-const templates = [templatesComponent];
+const templates = [templatesComponent, indexComponent];
 
 const fs = require("fs");
 let fileContent = fs.readFileSync("./examples/component.json", "utf8");
@@ -19,5 +20,5 @@ const { treeMap, rootNodes } = buildParentChildrenMap(
   project.childrenElementList
 );
 
-createFilder(outputPath);
+createFolder(outputPath);
 initStructure(outputPath, treeMap, rootNodes, templateDir, templates);
