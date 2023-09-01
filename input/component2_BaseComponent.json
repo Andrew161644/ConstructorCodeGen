@@ -1,0 +1,142 @@
+{
+    "id": "06cec334-3239-62d7-cafa-28c0bffb6f68",
+    "name": "component2",
+    "childrenElementList": [
+        {
+            "id": "b78c2d2f-0ab6-3205-1d82-2083f91d3c8c",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            }
+        },
+        {
+            "id": "81527cb6-a7a9-7785-cc26-8e96af97664f",
+            "type": "Button",
+            "props": {
+                "size": "l",
+                "action": "none",
+                "disabled": true,
+                "label": "Кнопка",
+                "view": "secondary",
+                "form": "brickDefault",
+                "width": "default",
+                "className": "p-l-m p-r-s p-t-s p-b-xl m-l-m   m-r-xs",
+                "baseProps": {
+                    "padding": {
+                        "paddingLeft": "p-l-m",
+                        "paddingRight": "p-r-s",
+                        "paddingTop": "p-t-s",
+                        "paddingBottom": "p-b-xl"
+                    },
+                    "margin": {
+                        "marginLeft": "m-l-m",
+                        "marginRight": "m-r-xs"
+                    }
+                },
+                "constaProps": {},
+                "loading": true,
+                "filled": "default"
+            },
+            "parentId": "acc7cbee-e42f-99de-3589-88a781e4c115"
+        },
+        {
+            "id": "201f3aed-f46e-3015-d5bd-759e20bbbf33",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "Кнопка",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {},
+                "filled": "filled"
+            },
+            "parentId": "acc7cbee-e42f-99de-3589-88a781e4c115"
+        },
+        {
+            "id": "acc7cbee-e42f-99de-3589-88a781e4c115",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "space-between"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "b78c2d2f-0ab6-3205-1d82-2083f91d3c8c"
+        },
+        {
+            "id": "137576d2-f57e-a44c-123a-42bdf1e88a7f",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "maxWidth": "100px",
+                    "minWidth": "100px",
+                    "maxHeight": "200px",
+                    "minHeight": "200px"
+                },
+                "className": "p-r-xs   p-l-m",
+                "baseProps": {
+                    "padding": {
+                        "paddingRight": "p-r-xs",
+                        "paddingLeft": "p-l-m"
+                    }
+                }
+            },
+            "parentId": "b78c2d2f-0ab6-3205-1d82-2083f91d3c8c"
+        },
+        {
+            "id": "14fb9f09-4207-a818-5bc7-e09f3305aa9e",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "b78c2d2f-0ab6-3205-1d82-2083f91d3c8c"
+        }
+    ],
+    "description": "component2"
+}

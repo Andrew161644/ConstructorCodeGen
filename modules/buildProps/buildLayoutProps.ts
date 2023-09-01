@@ -28,16 +28,19 @@ export const buildLayoutProps = (
     }}`;
   }
   if (props.className) {
-    propsString += `\n${tabs}\tclassname={${props.className}}`;
+    propsString += `\n${tabs}\tclassname={"${props.className}"}`;
   }
-  if (props.styles) {
+  const styles = props.styles;
+  if (styles) {
     const style = {
-      ...props?.styles,
-      ...(props?.styles?.borderSide && ActiveSide(props.styles)),
-      backgroundColor: `var(--${props?.styles?.backgroundColor})`,
+      ...styles,
+      ...(styles.borderSide && ActiveSide(styles)),
+      backgroundColor:
+        styles?.backgroundColor ?? `var(--${styles?.backgroundColor})`,
       overflow: "hidden",
       transition: "none",
     };
+    propsString += `\n${tabs}\tstyles={${JSON.stringify(style)}}`;
   }
   return propsString;
 };

@@ -1,11 +1,9 @@
 const fs = require("fs");
 
 export const createFolder = (folderName: string) => {
-  try {
-    if (!fs.existsSync(folderName)) {
-      fs.mkdirSync(folderName);
-    }
-  } catch (err) {
-    console.error(err);
+  if (!fs.existsSync(folderName)) {
+    fs.mkdirSync(folderName);
+  } else {
+    throw "Directory `generated` already exist. Please remove or rename `generated` and try again";
   }
 };

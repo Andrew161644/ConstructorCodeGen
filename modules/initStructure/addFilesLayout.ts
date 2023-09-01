@@ -2,7 +2,7 @@ import { TreeItem } from "../../coreTypes";
 import { COMPONENT_NAME, COMPONENT_TYPE, IMPORTS } from "../../templates";
 import { getItemName } from "../../utils";
 import { buildImports } from "../buildImports";
-import { buildProps } from "../buildProps";
+import { buildGroupElementProps, buildFormElementProps } from "../buildProps";
 
 const fs = require("fs");
 
@@ -36,15 +36,21 @@ const replaceContentLayout = (
   content = content?.replaceAll(IMPORTS, imports);
 
   if (!chldrenItems.length) {
-    content = content?.replaceAll(COMPONENT_TYPE, `<${element.type}/>`);
+    content = content?.replaceAll(
+      COMPONENT_TYPE,
+      `(\n\t\t<${element.type} ${buildGroupElementProps(
+        element,
+        "\t\t"
+      )}/>\n\t\t);`
+    );
   } else {
-    let componentCode = `(\n\t\t<${element.type} ${buildProps(
+    let componentCode = `(\n\t\t<${element.type} ${buildGroupElementProps(
       element,
       "\t\t"
     )}>\n`;
     chldrenItems.forEach((childItem) => {
       componentCode += `\t\t\t\t<${getItemName(childItem)} `;
-      componentCode += buildProps(childItem, "\t\t\t\t");
+      componentCode += buildFormElementProps(childItem, "\t\t\t\t");
       componentCode += "/>\n";
     });
     componentCode += `\t\t</${element.type}>\n\t);`;
