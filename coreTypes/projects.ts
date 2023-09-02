@@ -2,7 +2,6 @@ import { ButtonProps } from "./buttonTypes";
 import { LayoutElementPropsStyles } from "./layoutTypes";
 import { CheckboxProps } from "./checkboxTypes";
 import { BadgeProps } from "./badgeTypes";
-import { BreadcrumbsProps } from "@consta/uikit/Breadcrumbs";
 import { RadioButtonProps } from "./radioButtonTypes";
 import { SwitchProps } from "./SwitchTypes";
 import { TextProps } from "@consta/uikit/Text";
@@ -30,8 +29,8 @@ export type ComponentTypes =
   | "Layout"
   | "Badge"
   | "RadioButton"
-  | "Switch"
-  | "Text";
+  | "Switch";
+// | "Text";
 
 export type AllProps =
   | ButtonProps

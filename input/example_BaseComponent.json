@@ -1,0 +1,194 @@
+{
+    "id": "678439bc-c797-014f-2d7d-0d84f1e3be51",
+    "name": "example",
+    "childrenElementList": [
+        {
+            "id": "09ad3f9a-f2ac-c7de-7900-514a2bf53d0f",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            }
+        },
+        {
+            "id": "a6c35134-d845-dd78-8e0c-2844775d9c34",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "Кнопка",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "681d20d4-7e6c-1937-ff73-a0bb59485c35"
+        },
+        {
+            "id": "1720ecd4-fd2f-f5a4-bcff-c482b920d58b",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "Кнопка",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "681d20d4-7e6c-1937-ff73-a0bb59485c35"
+        },
+        {
+            "id": "681d20d4-7e6c-1937-ff73-a0bb59485c35",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "center"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "09ad3f9a-f2ac-c7de-7900-514a2bf53d0f"
+        },
+        {
+            "id": "86d4a810-f8c5-8dde-63a7-58477b7b8bf7",
+            "type": "Badge",
+            "props": {
+                "label": "Badge",
+                "form": "default",
+                "size": "xs",
+                "status": "success",
+                "view": "stroked",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "ba677aaf-3c97-43f9-2e1f-a3272eb11048"
+        },
+        {
+            "id": "f6fe589b-c5bd-6a9f-43c6-ec9dbf8ff17d",
+            "type": "Checkbox",
+            "props": {
+                "checked": true,
+                "size": "m",
+                "view": "primary",
+                "align": "center",
+                "disabled": false,
+                "label": "Checkbox",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "ba677aaf-3c97-43f9-2e1f-a3272eb11048"
+        },
+        {
+            "id": "0cad4e73-5c55-8e40-ad3d-216cb7b0ba5a",
+            "type": "RadioButton",
+            "props": {
+                "checked": true,
+                "size": "l",
+                "view": "primary",
+                "align": "center",
+                "label": "Это радиокнопка",
+                "className": "",
+                "baseProps": {},
+                "disabled": true
+            },
+            "parentId": "ba677aaf-3c97-43f9-2e1f-a3272eb11048"
+        },
+        {
+            "id": "ba677aaf-3c97-43f9-2e1f-a3272eb11048",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 7,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "09ad3f9a-f2ac-c7de-7900-514a2bf53d0f"
+        },
+        {
+            "id": "e2d1c6fd-ccea-dde6-071d-6563f1d45f0a",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "Кнопка",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "fbd327de-06e0-eda0-82e6-a24d05f6b5d3"
+        },
+        {
+            "id": "6e99fdb2-23c9-87a4-864e-4daf44ddba55",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "Кнопка",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "fbd327de-06e0-eda0-82e6-a24d05f6b5d3"
+        },
+        {
+            "id": "fbd327de-06e0-eda0-82e6-a24d05f6b5d3",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "end",
+                    "justifyContent": "space-between"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "09ad3f9a-f2ac-c7de-7900-514a2bf53d0f"
+        }
+    ],
+    "description": "example"
+}

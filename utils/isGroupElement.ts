@@ -6,9 +6,3 @@ export const isGroupElement = (item: TreeItem) => {
   }
   return false;
 };
-
-export const getItemName = (item: TreeItem) => {
-  return isGroupElement(item)
-    ? `${item.type}_${item.id}`.replaceAll("-", "_")
-    : item.type;
-};

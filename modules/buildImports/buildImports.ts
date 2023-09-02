@@ -1,5 +1,6 @@
 import { ComponentTypes, TreeItem } from "../../coreTypes";
-import { getItemName, isGroupElement } from "../../utils";
+import { isGroupElement } from "../../utils";
+import { getItemName } from "../initStructure";
 import { baseImports } from "./baseImportsPaths";
 
 export const buildImports = (

@@ -1,10 +1,10 @@
 import { ElementId, TreeItem } from "../../coreTypes";
 import { isGroupElement } from "../../utils";
-import { getItemName } from "../../utils/isGroupElement";
 import { Templates, readTemplate } from "../readTemplates";
 import { addFilesIndex } from "./addFilesIndex";
 import { addFilesLayout } from "./addFilesLayout";
 import { createFolder } from "./createFolders";
+import { getItemName } from "./getComponentName";
 
 const addFiles = (
   templateFiles: Templates[],

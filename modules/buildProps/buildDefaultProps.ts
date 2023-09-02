@@ -6,7 +6,6 @@ export const buildDefaultProps = (props: AllProps, tabs: string) => {
     /// Надо подумать как тут типизировать
     // @ts-ignore
     const value = props[key];
-
     if (
       key &&
       key != "baseProps" &&

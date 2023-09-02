@@ -28,7 +28,7 @@ export const buildLayoutProps = (
     }}`;
   }
   if (props.className) {
-    propsString += `\n${tabs}\tclassname={"${props.className}"}`;
+    propsString += `\n${tabs}\tclassName={"${props.className}"}`;
   }
   const styles = props.styles;
   if (styles) {

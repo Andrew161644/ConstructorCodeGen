@@ -1,18 +1,15 @@
-import { ButtonProps } from "../../coreTypes";
+import { TextElementProps } from "../../coreTypes";
 
-export const buildButtonProps = (props: ButtonProps, tabs: string) => {
+export const buildTextProps = (props: TextElementProps, tabs: string) => {
   let propsString = "";
-  propsString += `\n${tabs}\tstyle={{ flexGrow: ${props.filled ? 1 : 0} }}`;
-  let key: keyof ButtonProps;
+  let key: keyof TextElementProps;
   for (key in props) {
     const value = props[key];
     /// Надо подумать как тут типизировать
     if (
       key &&
       key != "baseProps" &&
-      key != "action" &&
       value != undefined &&
-      key != "filled" &&
       value != "" &&
       Object.keys(value).length != 0
     ) {
