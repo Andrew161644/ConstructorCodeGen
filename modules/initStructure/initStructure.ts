@@ -1,7 +1,7 @@
-import { ComponentTypes, ElementId, TreeItem } from "../../coreTypes/projects";
-import { Templates, readTemplate } from "../../templates";
+import { ElementId, TreeItem } from "../../coreTypes";
 import { isGroupElement } from "../../utils";
 import { getItemName } from "../../utils/isGroupElement";
+import { Templates, readTemplate } from "../readTemplates";
 import { addFilesIndex } from "./addFilesIndex";
 import { addFilesLayout } from "./addFilesLayout";
 import { createFolder } from "./createFolders";

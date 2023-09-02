@@ -1,4 +1,4 @@
-import { COMPONENT_NAME, PATH } from "../../templates";
+import { COMPONENT_NAME, PATH } from "../../templateConstants";
 
 const fs = require("fs");
 

@@ -1,5 +1,9 @@
 import { TreeItem } from "../../coreTypes";
-import { COMPONENT_NAME, COMPONENT_TYPE, IMPORTS } from "../../templates";
+import {
+  IMPORTS,
+  COMPONENT_TYPE,
+  COMPONENT_NAME,
+} from "../../templateConstants";
 import { getItemName } from "../../utils";
 import { buildImports } from "../buildImports";
 import { buildGroupElementProps, buildFormElementProps } from "../buildProps";

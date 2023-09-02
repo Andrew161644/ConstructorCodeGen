@@ -6,10 +6,11 @@ import {
   initStructure,
   getInputFiles,
 } from "./modules";
-import { templateList } from "./templates";
+import { templateList } from "./modules/readTemplates";
+import { INPUT_PATH, OUTPUT_PATH } from "./paths";
 
-const inputPath = "./input";
-const outputPath = "./generated";
+const inputPath = INPUT_PATH;
+const outputPath = OUTPUT_PATH;
 
 const generateDirs = (configPath: string) => {
   const fs = require("fs");

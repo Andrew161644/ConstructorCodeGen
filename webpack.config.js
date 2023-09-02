@@ -32,8 +32,8 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          from: path.resolve(__dirname, "templates/Components"),
-          to: path.resolve(__dirname, "dist/templates/Components"),
+          from: path.resolve(__dirname, "templates"),
+          to: path.resolve(__dirname, "dist/templates"),
         },
         {
           from: path.resolve(__dirname, "input"),
