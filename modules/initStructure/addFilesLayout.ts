@@ -17,7 +17,7 @@ export const addFilesLayout = (
   const outputFile = `${outputFolder}/${fileName}`;
   const content = replaceContentLayout(fileContent, name, element, chidlren);
 
-  fs.appendFile(outputFile, content, function (err: Error) {
+  fs.writeFile(outputFile, content, function (err: Error) {
     if (err) {
       console.log(err);
     }

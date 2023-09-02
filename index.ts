@@ -6,21 +6,12 @@ import {
   initStructure,
   getInputFiles,
 } from "./modules";
-import { Templates } from "./templates";
-import { getOutputName } from "./utils";
+import { templateList } from "./templates";
 
 const inputPath = "./input";
 const outputPath = "./generated";
 
-const componentFiles = getInputFiles(inputPath);
-
-const generateDirs = (configPath: string, output: string) => {
-  const templatesComponent: Templates = "Layout";
-  const indexComponent: Templates = "index";
-  const templates = [templatesComponent, indexComponent];
-
-  const outputPath = getOutputName(output);
-
+const generateDirs = (configPath: string) => {
   const fs = require("fs");
   let fileContent = fs.readFileSync(configPath, "utf8");
   const project: ComponentModule = parseStringToComponentModule(fileContent);
@@ -28,10 +19,17 @@ const generateDirs = (configPath: string, output: string) => {
     project.childrenElementList
   );
 
-  createFolder(outputPath);
-  initStructure(outputPath, treeMap, rootNodes, templates);
+  initStructure(outputPath, treeMap, rootNodes, templateList);
 };
 
-componentFiles.forEach((component) => {
-  generateDirs(component, outputPath);
-});
+try {
+  const componentFiles = getInputFiles(inputPath);
+
+  createFolder(outputPath);
+
+  componentFiles.forEach((component) => {
+    generateDirs(component);
+  });
+} catch (e) {
+  console.log(e);
+}

@@ -35,8 +35,9 @@ export const buildLayoutProps = (
     const style = {
       ...styles,
       ...(styles.borderSide && ActiveSide(styles)),
-      backgroundColor:
-        styles?.backgroundColor ?? `var(--${styles?.backgroundColor})`,
+      backgroundColor: styles?.backgroundColor
+        ? `var(--${styles?.backgroundColor})`
+        : undefined,
       overflow: "hidden",
       transition: "none",
     };

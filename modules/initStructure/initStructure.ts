@@ -6,17 +6,17 @@ import { addFilesIndex } from "./addFilesIndex";
 import { addFilesLayout } from "./addFilesLayout";
 import { createFolder } from "./createFolders";
 
-export const addFiles = (
+const addFiles = (
   templateFiles: Templates[],
   outputFolder: string,
   name: string,
   element: TreeItem,
   chidlren: TreeItem[]
 ) => {
-  templateFiles.forEach((inputFile) => {
-    let fileContent = readTemplate(inputFile);
+  templateFiles.forEach((template) => {
+    let fileContent = readTemplate(template);
 
-    switch (inputFile) {
+    switch (template) {
       case "index":
         addFilesIndex(name, outputFolder, fileContent);
         break;

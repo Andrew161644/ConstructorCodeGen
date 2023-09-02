@@ -12,7 +12,7 @@ export const addFilesIndex = (
   let content = fileContent.replaceAll(COMPONENT_NAME, name);
   content = content.replaceAll(PATH, name);
 
-  fs.appendFile(outputFile, content, function (err: Error) {
+  fs.writeFile(outputFile, content, function (err: Error) {
     if (err) {
       console.log(err);
     }
