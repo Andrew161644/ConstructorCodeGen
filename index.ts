@@ -5,8 +5,8 @@ import {
   createFolder,
   initStructure,
   getInputFiles,
+  templateList,
 } from "./modules";
-import { templateList } from "./modules/readTemplates";
 import { INPUT_PATH, OUTPUT_PATH } from "./paths";
 
 const inputPath = INPUT_PATH;
