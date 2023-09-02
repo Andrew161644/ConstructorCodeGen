@@ -41,7 +41,7 @@ export const buildLayoutProps = (
       overflow: "hidden",
       transition: "none",
     };
-    propsString += `\n${tabs}\tstyles={${JSON.stringify(style)}}`;
+    propsString += `\n${tabs}\tstyle={${JSON.stringify(style)}}`;
   }
   return propsString;
 };
