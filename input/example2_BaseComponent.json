@@ -1,6 +1,6 @@
 {
-    "id": "06cec334-3239-62d7-cafa-28c0bffb6f68",
-    "name": "component2",
+    "id": "c721220e-d997-fe69-f2fb-00bf7a94f59a",
+    "name": "example2",
     "childrenElementList": [
         {
             "id": "b78c2d2f-0ab6-3205-1d82-2083f91d3c8c",
@@ -69,6 +69,63 @@
             "parentId": "acc7cbee-e42f-99de-3589-88a781e4c115"
         },
         {
+            "id": "0039ec74-911d-0b26-f570-ec7ad31f05fe",
+            "type": "Checkbox",
+            "props": {
+                "checked": false,
+                "size": "s",
+                "view": "primary",
+                "align": "center",
+                "disabled": false,
+                "label": "Checkbox",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "acc7cbee-e42f-99de-3589-88a781e4c115"
+        },
+        {
+            "id": "28f12a26-48a7-da92-136a-33ac83150b22",
+            "type": "Badge",
+            "props": {
+                "label": "Badge2",
+                "form": "default",
+                "size": "m",
+                "status": "system",
+                "view": "stroked",
+                "className": "p-l-xs   p-r-s",
+                "baseProps": {
+                    "padding": {
+                        "paddingLeft": "p-l-xs",
+                        "paddingRight": "p-r-s"
+                    }
+                },
+                "minified": false,
+                "constaProps": {}
+            },
+            "parentId": "acc7cbee-e42f-99de-3589-88a781e4c115"
+        },
+        {
+            "id": "8b7f5f13-6d81-f07c-8617-d8e6533e9c23",
+            "type": "RadioButton",
+            "props": {
+                "checked": true,
+                "size": "s",
+                "view": "primary",
+                "align": "top",
+                "label": "Это радиокнопка1",
+                "className": "p-l-m   p-r-m",
+                "baseProps": {
+                    "padding": {
+                        "paddingLeft": "p-l-m",
+                        "paddingRight": "p-r-m"
+                    }
+                },
+                "disabled": true,
+                "constaProps": {}
+            },
+            "parentId": "acc7cbee-e42f-99de-3589-88a781e4c115"
+        },
+        {
             "id": "acc7cbee-e42f-99de-3589-88a781e4c115",
             "type": "Layout",
             "isOuter": false,
@@ -118,6 +175,35 @@
             "parentId": "b78c2d2f-0ab6-3205-1d82-2083f91d3c8c"
         },
         {
+            "id": "9bd4ad32-3cf3-8cdb-5428-70a567f094e4",
+            "type": "Checkbox",
+            "props": {
+                "checked": true,
+                "size": "xs",
+                "view": "ghost",
+                "align": "top",
+                "disabled": false,
+                "label": "Checkbox",
+                "className": "p-l-s p-t-m p-r-s p-b-s m-l-xl m-r-m m-t-m   m-b-xs",
+                "baseProps": {
+                    "padding": {
+                        "paddingLeft": "p-l-s",
+                        "paddingTop": "p-t-m",
+                        "paddingRight": "p-r-s",
+                        "paddingBottom": "p-b-s"
+                    },
+                    "margin": {
+                        "marginLeft": "m-l-xl",
+                        "marginRight": "m-r-m",
+                        "marginTop": "m-t-m",
+                        "marginBottom": "m-b-xs"
+                    }
+                },
+                "constaProps": {}
+            },
+            "parentId": "14fb9f09-4207-a818-5bc7-e09f3305aa9e"
+        },
+        {
             "id": "14fb9f09-4207-a818-5bc7-e09f3305aa9e",
             "type": "Layout",
             "isOuter": true,
@@ -138,5 +224,5 @@
             "parentId": "b78c2d2f-0ab6-3205-1d82-2083f91d3c8c"
         }
     ],
-    "description": "component2"
+    "description": "example2"
 }

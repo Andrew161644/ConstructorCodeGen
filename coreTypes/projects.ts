@@ -1,6 +1,11 @@
 import { ButtonProps } from "./buttonTypes";
-import { FormElementTypes, FormGroupsTypes } from "./types";
 import { LayoutElementPropsStyles } from "./layoutTypes";
+import { CheckboxProps } from "./checkboxTypes";
+import { BadgeProps } from "./badgeTypes";
+import { BreadcrumbsProps } from "@consta/uikit/Breadcrumbs";
+import { RadioButtonProps } from "./radioButtonTypes";
+import { SwitchProps } from "./SwitchTypes";
+import { TextProps } from "@consta/uikit/Text";
 
 export type ComponentModule = {
   name: string;
@@ -13,9 +18,26 @@ export type ElementId = string;
 export type TreeItem = {
   id: ElementId;
   type: ComponentTypes;
-  props: ButtonProps | LayoutElementPropsStyles;
+  props: AllProps;
   parentId?: ElementId | undefined;
 };
 
-export type ComponentTypes = FormElementTypes | FormGroupsTypes;
-export type AllProps = ButtonProps | LayoutElementPropsStyles;
+// Чтобы имплементировать все
+// export type ComponentTypes = FormElementTypes | FormGroupsTypes;
+export type ComponentTypes =
+  | "Button"
+  | "Checkbox"
+  | "Layout"
+  | "Badge"
+  | "RadioButton"
+  | "Switch"
+  | "Text";
+
+export type AllProps =
+  | ButtonProps
+  | LayoutElementPropsStyles
+  | CheckboxProps
+  | BadgeProps
+  | RadioButtonProps
+  | SwitchProps
+  | TextProps;

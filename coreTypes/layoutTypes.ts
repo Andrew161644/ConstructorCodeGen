@@ -74,7 +74,6 @@ export const ConstaColors = [
   "color-shadow-modal-1",
   "color-shadow-modal-2",
 ] as const;
-
 export type ConstaColor = (typeof ConstaColors)[number];
 
 // Нет возможности использовать тип импортированный из консты, как это сделано с типом ButtonElementProps, так как нет возможности создать State, содержащий поле типа HTMLElement

@@ -1,9 +1,19 @@
+import { iconNames } from "./iconTypes";
+import { BaseProps, IFormElement, IGroupElement } from "./types";
 import { Props } from "@consta/uikit/Button";
-import { BaseProps, IFormElement, IGroupElement, Filled } from "./types";
 
+///  | 'RightSidebar' | 'LeftSidebar'
 export type ButtonAction = "none" | "ButtonModal";
 
-export interface ButtonProps extends BaseProps, Props, Filled {}
+interface Filled {
+  filled: string;
+}
+
+export interface ButtonProps extends BaseProps, Props, Filled {
+  action: ButtonAction;
+  icon?: iconNames;
+  iconR?: iconNames;
+}
 
 export const buttonActions: ButtonAction[] = ["none", "ButtonModal"];
 export const buttonActionsActive = ["ButtonModal"];
@@ -22,4 +32,9 @@ export interface ButtonGroupProps extends BaseProps {
 
 export interface IButtonActionElement extends IGroupElement {
   connectedButtonId: string;
+}
+
+export interface IButtonModalElement extends IButtonActionElement {
+  id: string;
+  props: ButtonGroupProps;
 }
