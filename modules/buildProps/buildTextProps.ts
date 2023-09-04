@@ -9,6 +9,7 @@ export const buildTextProps = (props: TextElementProps, tabs: string) => {
     if (
       key &&
       key != "baseProps" &&
+      key != "content" &&
       value != undefined &&
       value != "" &&
       Object.keys(value).length != 0

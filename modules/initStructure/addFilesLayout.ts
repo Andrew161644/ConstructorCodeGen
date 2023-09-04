@@ -4,6 +4,8 @@ import {
   COMPONENT_TYPE,
   COMPONENT_NAME,
 } from "../../templateConstants";
+import { buildChildComponent } from "../buildChildComponent";
+import { buildChildContent } from "../buildChildContent";
 import { buildImports } from "../buildImports";
 import { buildGroupElementProps, buildFormElementProps } from "../buildProps";
 import { getComponentName, getItemName } from "./getComponentName";
@@ -52,9 +54,10 @@ const replaceContentLayout = (
       element.type
     )} ${buildGroupElementProps(element, "\t\t")}>\n`;
     chldrenItems.forEach((childItem) => {
-      componentCode += `\t\t\t\t<${getItemName(childItem)} `;
-      componentCode += buildFormElementProps(childItem, "\t\t\t\t");
-      componentCode += "/>\n";
+      componentCode += `\t\t\t\t${buildChildComponent(
+        childItem,
+        "\t\t\t\t"
+      )}\n`;
     });
     componentCode += `\t\t</${getComponentName(element.type)}>\n\t);`;
     content = content?.replaceAll(COMPONENT_TYPE, `${componentCode}`);

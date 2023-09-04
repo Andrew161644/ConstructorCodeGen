@@ -1,0 +1,1 @@
+export { buildChildComponent } from "./buildChildComponent";

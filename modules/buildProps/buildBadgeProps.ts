@@ -1,4 +1,4 @@
-import { BadgeProps, ButtonProps } from "../../coreTypes";
+import { BadgeProps } from "../../coreTypes";
 import { buildDefaultProps } from "./buildDefaultProps";
 
 export const buildBadgeProps = (props: BadgeProps, tabs: string) => {
