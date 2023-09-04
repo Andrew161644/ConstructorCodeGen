@@ -1,10 +1,23 @@
-import { TreeItem } from "../../coreTypes";
+import { TextElementProps, TreeItem } from "../../coreTypes";
+import { isPropsTypeOf } from "../../utils/isPropsTypeOf";
+import { buildChildContentText } from "../buildChildContent";
 import { buildFormElementProps } from "../buildProps";
 import { getItemName } from "../initStructure";
 
 export const buildChildComponent = (childItem: TreeItem, propTabs: string) => {
-  return `<${getItemName(childItem)} ${buildFormElementProps(
-    childItem,
-    propTabs
-  )}/>`;
+  let content = "";
+  if (
+    isPropsTypeOf<TextElementProps>(childItem.type, childItem.props, "Text")
+  ) {
+    content = buildChildContentText(childItem.props);
+  }
+  return content == ""
+    ? `<${getItemName(childItem)} ${buildFormElementProps(
+        childItem,
+        propTabs
+      )}/>`
+    : `<${getItemName(childItem)} ${buildFormElementProps(
+        childItem,
+        propTabs
+      )}>${content}</${getItemName(childItem)}>`;
 };

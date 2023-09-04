@@ -1,1 +1,1 @@
-export { buildChildContent } from "./buildChildContent";
+export { buildChildContentText } from "./buildChildContent";

@@ -1,5 +1,5 @@
-import { TreeItem } from "../../coreTypes";
+import { TextElementProps, TreeItem } from "../../coreTypes";
 
-export const buildChildContent = (element: TreeItem) => {
-  return "";
+export const buildChildContentText = (props: TextElementProps) => {
+  return props.content;
 };

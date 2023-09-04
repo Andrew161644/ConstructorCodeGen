@@ -8,7 +8,7 @@ export const componentNames: Record<ComponentTypes, string> = {
   Badge: "Badge",
   RadioButton: "Radio",
   Switch: "Switch",
-  // Text: "Text",
+  Text: "Text",
 };
 
 export const getComponentName = (componentType: ComponentTypes) => {

@@ -34,9 +34,9 @@ export const buildFormElementProps = (item: TreeItem, tabs: string) => {
   } else if (isPropsTypeOf<BadgeProps>(item.type, item.props, "Badge")) {
     return buildBadgeProps(item.props, tabs);
   }
-  // if (isPropsTypeOf<TextElementProps>(item.type, item.props, "Text")) {
-  //   return buildTextProps(item.props, tabs);
-  // }
+  if (isPropsTypeOf<TextElementProps>(item.type, item.props, "Text")) {
+    return buildTextProps(item.props, tabs);
+  }
   return "";
 };
 

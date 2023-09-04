@@ -29,8 +29,8 @@ export type ComponentTypes =
   | "Layout"
   | "Badge"
   | "RadioButton"
-  | "Switch";
-// | "Text";
+  | "Switch"
+  | "Text";
 
 export type AllProps =
   | ButtonProps
