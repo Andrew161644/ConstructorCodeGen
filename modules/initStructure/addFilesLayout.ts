@@ -5,7 +5,6 @@ import {
   COMPONENT_NAME,
 } from "../../templateConstants";
 import { buildChildComponent } from "../buildChildComponent";
-import { buildChildContent } from "../buildChildContent";
 import { buildImports } from "../buildImports";
 import { buildGroupElementProps, buildFormElementProps } from "../buildProps";
 import { getComponentName, getItemName } from "./getComponentName";
