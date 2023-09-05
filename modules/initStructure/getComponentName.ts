@@ -8,6 +8,7 @@ export const componentNames: Record<ComponentTypes, string> = {
   Badge: "Badge",
   RadioButton: "Radio",
   Switch: "Switch",
+  Card: "Card",
   Text: "Text",
 };
 

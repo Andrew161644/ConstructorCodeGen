@@ -1,7 +1,11 @@
 import {
   BadgeProps,
   ButtonProps,
+  CardElementProps,
+  CardElementPropsStyles,
   CheckboxProps,
+  LayoutElementProps,
+  LayoutElementPropsStyles,
   RadioButtonProps,
   SwitchProps,
   TextElementProps,
@@ -11,6 +15,7 @@ import { isLayoutProps } from "../../utils";
 import { isPropsTypeOf } from "../../utils/isPropsTypeOf";
 import { buildBadgeProps } from "./buildBadgeProps";
 import { buildButtonProps } from "./buildButtonProps";
+import { buildCardProps } from "./buildCardProps";
 import { buildCheckboxProps } from "./buildCheckboxProps";
 import { buildLayoutProps } from "./buildLayoutProps";
 import { buildRadioButtonProps } from "./buildRadioButtonProps";
@@ -39,8 +44,14 @@ export const buildFormElementProps = (item: TreeItem, tabs: string) => {
 };
 
 export const buildGroupElementProps = (item: TreeItem, tabs: string) => {
-  if (isLayoutProps(item.type, item.props)) {
+  if (
+    isPropsTypeOf<LayoutElementPropsStyles>(item.type, item.props, "Layout")
+  ) {
     return buildLayoutProps(item.props, tabs);
+  } else if (
+    isPropsTypeOf<CardElementPropsStyles>(item.type, item.props, "Card")
+  ) {
+    return buildCardProps(item.props, tabs);
   }
   return "";
 };

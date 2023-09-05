@@ -1,4 +1,8 @@
-import { LayoutElementPropsStyles, LayoutElementStyles } from "../../coreTypes";
+import {
+  LayoutElementProps,
+  LayoutElementPropsStyles,
+  LayoutElementStyles,
+} from "../../coreTypes";
 
 export const buildLayoutProps = (
   props: LayoutElementPropsStyles,
@@ -22,7 +26,9 @@ export const buildLayoutProps = (
     return sideCss;
   };
   const constaProps = props.constaProps;
-  for (const [key, value] of Object.entries(constaProps)) {
+  let key: keyof LayoutElementProps;
+  for (key in constaProps) {
+    const value = constaProps[key];
     propsString += `\n${tabs}\t${key}={${
       typeof value === "string" ? `'${value}'` : value
     }}`;

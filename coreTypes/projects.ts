@@ -5,6 +5,7 @@ import { BadgeProps } from "./badgeTypes";
 import { RadioButtonProps } from "./radioButtonTypes";
 import { SwitchProps } from "./SwitchTypes";
 import { TextProps } from "@consta/uikit/Text";
+import { CardElementPropsStyles } from "./cardTypes";
 
 export type ComponentModule = {
   name: string;
@@ -30,7 +31,8 @@ export type ComponentTypes =
   | "Badge"
   | "RadioButton"
   | "Switch"
-  | "Text";
+  | "Text"
+  | "Card";
 
 export type AllProps =
   | ButtonProps
@@ -39,4 +41,5 @@ export type AllProps =
   | BadgeProps
   | RadioButtonProps
   | SwitchProps
-  | TextProps;
+  | TextProps
+  | CardElementPropsStyles;

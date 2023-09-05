@@ -10,5 +10,6 @@ export const baseImports: Record<DependencyKeys, string> = {
   RadioButton: "import { Radio } from '@consta/uikit/Radio'",
   Switch: "import { Switch } from '@consta/uikit/Switch'",
   Text: "import { Text } from '@consta/uikit/Text'",
+  Card: "import { Card } from '@consta/uikit/Card'",
   React: "import React from 'react'",
 };
