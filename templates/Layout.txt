@@ -1,4 +1,4 @@
-?%IMPORTS%?
+?%IMPORTS?%
 
 export const ?%COMPONENT_NAME?% = () => {
     return ?%COMPONENT_TYPE?%
