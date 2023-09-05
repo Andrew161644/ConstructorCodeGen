@@ -1,9 +1,7 @@
 import {
-  AllProps,
   BadgeProps,
   ButtonProps,
   CheckboxProps,
-  ComponentTypes,
   RadioButtonProps,
   SwitchProps,
   TextElementProps,

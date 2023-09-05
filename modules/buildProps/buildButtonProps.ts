@@ -6,7 +6,6 @@ export const buildButtonProps = (props: ButtonProps, tabs: string) => {
   let key: keyof ButtonProps;
   for (key in props) {
     const value = props[key];
-    /// Надо подумать как тут типизировать
     if (
       key &&
       key != "baseProps" &&
