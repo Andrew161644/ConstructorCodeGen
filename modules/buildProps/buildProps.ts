@@ -1,17 +1,14 @@
 import {
   BadgeProps,
   ButtonProps,
-  CardElementProps,
   CardElementPropsStyles,
   CheckboxProps,
-  LayoutElementProps,
   LayoutElementPropsStyles,
   RadioButtonProps,
   SwitchProps,
   TextElementProps,
   TreeItem,
 } from "../../coreTypes";
-import { isLayoutProps } from "../../utils";
 import { isPropsTypeOf } from "../../utils/isPropsTypeOf";
 import { buildBadgeProps } from "./buildBadgeProps";
 import { buildButtonProps } from "./buildButtonProps";
