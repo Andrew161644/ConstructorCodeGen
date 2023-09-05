@@ -10,7 +10,7 @@
 
 /generated*
 
-/dist*
+/build*
 
 #webpack-build
 /config/build

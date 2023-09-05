@@ -26,18 +26,18 @@ module.exports = {
   },
   output: {
     filename: "ComponentBuilder.js",
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "build"),
   },
   plugins: [
     new CopyPlugin({
       patterns: [
         {
           from: path.resolve(__dirname, "templates"),
-          to: path.resolve(__dirname, "dist/templates"),
+          to: path.resolve(__dirname, "build/templates"),
         },
         {
           from: path.resolve(__dirname, "input"),
-          to: path.resolve(__dirname, "dist/input"),
+          to: path.resolve(__dirname, "build/input"),
         },
       ],
     }),
