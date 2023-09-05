@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "ts-node-dev --exit-child index.ts",
     "start": "ts-node index.ts",
-    "webpack": "npx webpack --config webpack.config.js"
+    "webpack": "npx webpack --config webpack.config.js",
+    "test": "node --test ./tests/buildStates.test.ts"
   },
   "devDependencies": {
     "@types/node": "^18.0.5",
