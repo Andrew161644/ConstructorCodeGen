@@ -13,4 +13,5 @@ export const baseImports: Record<DependencyKeys, string> = {
   Card: "import { Card } from '@consta/uikit/Card'",
   React: "import React from 'react'",
   Informer: "import { Informer } from '@consta/uikit/Informer'",
+  ComboBox: "import { Combobox } from '@consta/uikit/Combobox'",
 };

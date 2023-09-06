@@ -1,5 +1,5 @@
 {
-    "id": "7e059935-472a-4ced-28c6-66e4b9b8a0d7",
+    "id": "9e33ca0e-dff0-7b52-25ae-ca75c428f3ee",
     "name": "example",
     "childrenElementList": [
         {
@@ -59,6 +59,21 @@
                 "size": "s",
                 "className": "",
                 "baseProps": {}
+            },
+            "parentId": "f7554e4f-a002-0e23-dbda-13b697ffea3d"
+        },
+        {
+            "id": "eb53a11a-1641-1527-57ab-213d11296f39",
+            "type": "RadioButton",
+            "props": {
+                "checked": true,
+                "size": "s",
+                "view": "primary",
+                "align": "top",
+                "label": "Это радиокнопка1",
+                "className": "",
+                "baseProps": {},
+                "disabled": true
             },
             "parentId": "f7554e4f-a002-0e23-dbda-13b697ffea3d"
         },
@@ -204,6 +219,66 @@
                 "baseProps": {}
             },
             "parentId": "1c7f7425-3889-034c-acc9-09536fb593de"
+        },
+        {
+            "id": "5c4b3216-9c32-4ad1-6ea1-ee06b64dca04",
+            "type": "ComboBox",
+            "props": {
+                "size": "s",
+                "placeholder": "placeholder1",
+                "caption": "Хорошо подумайте, это важно, правда",
+                "label": "Здесь можно выбрать цвет любой",
+                "view": "clear",
+                "className": "p-l-xs p-r-s p-t-xs p-b-xl m-l-s m-r-xs m-t-xs   m-b-xs",
+                "baseProps": {
+                    "padding": {
+                        "paddingLeft": "p-l-xs",
+                        "paddingRight": "p-r-s",
+                        "paddingTop": "p-t-xs",
+                        "paddingBottom": "p-b-xl"
+                    },
+                    "margin": {
+                        "marginLeft": "m-l-s",
+                        "marginRight": "m-r-xs",
+                        "marginTop": "m-t-xs",
+                        "marginBottom": "m-b-xs"
+                    }
+                },
+                "items": [
+                    {
+                        "label": "Первый1",
+                        "id": 1
+                    },
+                    {
+                        "label": "Второй2",
+                        "id": 2
+                    },
+                    {
+                        "label": "Третий3",
+                        "id": 3
+                    },
+                    {
+                        "id": 3,
+                        "label": "Четвертый4"
+                    },
+                    {
+                        "id": 4,
+                        "label": "Пятый5"
+                    }
+                ],
+                "value": {
+                    "label": "Первый1",
+                    "id": 1
+                },
+                "disabled": false,
+                "form": "clearBrick",
+                "status": "alert",
+                "labelPosition": "top",
+                "isLoading": true,
+                "multiple": true,
+                "constaProps": {}
+            },
+            "parentId": "908a14bc-81d9-7f82-7f68-9220d3a653cd"
         },
         {
             "id": "908a14bc-81d9-7f82-7f68-9220d3a653cd",

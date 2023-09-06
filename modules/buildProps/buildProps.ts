@@ -3,6 +3,7 @@ import {
   ButtonProps,
   CardElementPropsStyles,
   CheckboxProps,
+  ComboboxProps,
   InformerElementProps,
   LayoutElementPropsStyles,
   RadioButtonProps,
@@ -15,6 +16,7 @@ import { buildBadgeProps } from "./buildBadgeProps";
 import { buildButtonProps } from "./buildButtonProps";
 import { buildCardProps } from "./buildCardProps";
 import { buildCheckboxProps } from "./buildCheckboxProps";
+import { buildComboboxProps } from "./buildComboboxProps";
 import { buildInformerProps } from "./buildInformerProps";
 import { buildLayoutProps } from "./buildLayoutProps";
 import { buildRadioButtonProps } from "./buildRadioButtonProps";
@@ -41,6 +43,8 @@ export const buildFormElementProps = (item: TreeItem, tabs: string) => {
     isPropsTypeOf<InformerElementProps>(item.type, item.props, "Informer")
   ) {
     return buildInformerProps(item.props, tabs);
+  } else if (isPropsTypeOf<ComboboxProps>(item.type, item.props, "ComboBox")) {
+    return buildComboboxProps(item.props, tabs);
   }
   return "";
 };

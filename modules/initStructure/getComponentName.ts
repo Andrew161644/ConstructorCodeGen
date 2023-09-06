@@ -11,6 +11,7 @@ export const componentNames: Record<ComponentTypes, string> = {
   Card: "Card",
   Text: "Text",
   Informer: "Informer",
+  ComboBox: "Combobox",
 };
 
 export const getComponentName = (componentType: ComponentTypes) => {

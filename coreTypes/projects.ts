@@ -7,6 +7,7 @@ import { SwitchProps } from "./SwitchTypes";
 import { TextProps } from "@consta/uikit/Text";
 import { CardElementPropsStyles } from "./cardTypes";
 import { InformerElementProps } from "./informerTypes";
+import { ComboboxProps } from "./comboBoxTypes";
 
 export type ComponentModule = {
   name: string;
@@ -34,7 +35,8 @@ export type ComponentTypes =
   | "Switch"
   | "Text"
   | "Card"
-  | "Informer";
+  | "Informer"
+  | "ComboBox";
 
 export type AllProps =
   | ButtonProps
@@ -45,4 +47,5 @@ export type AllProps =
   | SwitchProps
   | TextProps
   | CardElementPropsStyles
-  | InformerElementProps;
+  | InformerElementProps
+  | ComboboxProps;
