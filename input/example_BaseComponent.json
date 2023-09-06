@@ -1,1 +1,465 @@
-{"id":"183d820b-61a0-fa7b-abe5-de73afd88cd9","name":"RT","childrenElementList":[{"id":"991b3386-c831-9981-9b9c-523535b14b7b","type":"Layout","isOuter":false,"props":{"constaProps":{"flex":1,"direction":"column","horizontalAlign":"left","verticalAlign":"top"},"styles":{"alignItems":"normal","justifyContent":"start"},"className":"","baseProps":{}}},{"id":"195b3159-a9b4-8603-1d4a-c86aa97df6eb","type":"Checkbox","props":{"checked":false,"size":"s","view":"primary","align":"center","disabled":false,"label":"Checkbox","className":"","baseProps":{}},"parentId":"be3aa7fe-5ad7-f26d-a3d3-78218458fc65"},{"id":"c9beb6f2-bbcd-a851-e7e1-89fad7796ee1","type":"Checkbox","props":{"checked":true,"size":"s","view":"primary","align":"center","disabled":false,"label":"Checkbox","className":"","baseProps":{}},"parentId":"be3aa7fe-5ad7-f26d-a3d3-78218458fc65"},{"id":"004c9bb2-30df-159b-5f29-5569ddfbfb70","type":"Text","props":{"content":"TextText","size":"s","className":"","baseProps":{}},"parentId":"be3aa7fe-5ad7-f26d-a3d3-78218458fc65"},{"id":"be3aa7fe-5ad7-f26d-a3d3-78218458fc65","type":"Layout","isOuter":false,"props":{"constaProps":{"flex":6,"direction":"row","horizontalAlign":"left","verticalAlign":"top"},"styles":{"alignItems":"center","justifyContent":"space-between"},"className":"","baseProps":{}},"parentId":"f4723a1b-b371-aec7-a2a5-f737803ad90f"},{"id":"17eb48e3-6feb-55b4-9d82-769cf7491580","type":"Switch","props":{"size":"s","view":"ghost","align":"top","label":"dfff","className":"","baseProps":{}},"parentId":"cef8a40c-f0f4-3f15-71f5-f0e2b883413d"},{"id":"cef8a40c-f0f4-3f15-71f5-f0e2b883413d","type":"Layout","isOuter":true,"props":{"constaProps":{"flex":1,"direction":"column","horizontalAlign":"left","verticalAlign":"top"},"styles":{"alignItems":"center","justifyContent":"center"},"className":"","baseProps":{}},"parentId":"f4723a1b-b371-aec7-a2a5-f737803ad90f"},{"id":"f4723a1b-b371-aec7-a2a5-f737803ad90f","type":"Layout","isOuter":false,"props":{"constaProps":{"flex":1,"direction":"row","horizontalAlign":"left","verticalAlign":"top"},"styles":{"alignItems":"normal","justifyContent":"space-between"},"className":"","baseProps":{}},"parentId":"991b3386-c831-9981-9b9c-523535b14b7b"},{"id":"417be69b-1b35-635d-077e-41e9838e34e4","type":"Layout","isOuter":false,"props":{"constaProps":{"flex":1,"direction":"column","horizontalAlign":"left","verticalAlign":"top"},"styles":{"alignItems":"normal","justifyContent":"start","backgroundColor":"color-bg-border"},"className":"","baseProps":{}},"parentId":"72613e9b-9afb-0c01-b67d-8ac0609111ee"},{"id":"3192e516-b549-5746-081b-8f16846cf3f1","type":"Layout","isOuter":false,"props":{"constaProps":{"flex":1,"direction":"row","horizontalAlign":"left","verticalAlign":"top"},"styles":{"alignItems":"normal","justifyContent":"start"},"className":"","baseProps":{}},"parentId":"a3b5dff8-472d-7daa-f6b6-eace3f10eb84"},{"id":"c60afe79-3841-4d8f-a420-aeff57da1d48","type":"Layout","isOuter":true,"props":{"constaProps":{"flex":1,"direction":"row","horizontalAlign":"left","verticalAlign":"top"},"styles":{"alignItems":"normal","justifyContent":"start"},"className":"","baseProps":{}},"parentId":"a3b5dff8-472d-7daa-f6b6-eace3f10eb84"},{"id":"a3b5dff8-472d-7daa-f6b6-eace3f10eb84","type":"Layout","isOuter":false,"props":{"constaProps":{"flex":1,"direction":"row","horizontalAlign":"left","verticalAlign":"top"},"styles":{"alignItems":"normal","justifyContent":"start"},"className":"","baseProps":{}},"parentId":"a4829eb4-ef66-6050-d711-b1b01b59d9d2"},{"id":"a4829eb4-ef66-6050-d711-b1b01b59d9d2","type":"Card","isOuter":false,"props":{"constaProps":{"verticalSpace":"m","horizontalSpace":"m","form":"square"},"baseProps":{},"className":"","styles":{"width":"376px","height":"227px"}},"parentId":"b0005d7f-5857-f7c0-6df9-e9cfa6c39eb4"},{"id":"46c3550a-1140-cc61-cfa1-306ecf2e934f","type":"Text","props":{"content":"Text4","size":"s","className":"","baseProps":{}},"parentId":"bb3a69df-233b-eb1a-eb21-a24ed6205ab6"},{"id":"d346c0cd-be6b-a8d7-59e4-4de58039f79f","type":"Text","props":{"content":"Text2","size":"s","className":"","baseProps":{}},"parentId":"bb3a69df-233b-eb1a-eb21-a24ed6205ab6"},{"id":"bb3a69df-233b-eb1a-eb21-a24ed6205ab6","type":"Card","isOuter":false,"props":{"constaProps":{"verticalSpace":"m","horizontalSpace":"m","form":"square"},"baseProps":{},"className":"","styles":{"width":"376px","height":"227px"}},"parentId":"b0005d7f-5857-f7c0-6df9-e9cfa6c39eb4"},{"id":"b0005d7f-5857-f7c0-6df9-e9cfa6c39eb4","type":"Layout","isOuter":true,"props":{"constaProps":{"flex":1,"direction":"column","horizontalAlign":"left","verticalAlign":"top"},"styles":{"alignItems":"center","justifyContent":"space-around","borderColor":"#392867","backgroundColor":"color-bg-secondary"},"className":"","baseProps":{}},"parentId":"72613e9b-9afb-0c01-b67d-8ac0609111ee"},{"id":"72613e9b-9afb-0c01-b67d-8ac0609111ee","type":"Layout","isOuter":true,"props":{"constaProps":{"flex":6,"direction":"row","horizontalAlign":"left","verticalAlign":"top"},"styles":{"alignItems":"normal","justifyContent":"start"},"className":"","baseProps":{}},"parentId":"991b3386-c831-9981-9b9c-523535b14b7b"},{"id":"300c18cb-33b1-fc65-4b82-3bf9bdefed97","type":"Button","props":{"size":"m","action":"none","disabled":false,"label":"Кнопка","view":"primary","form":"default","width":"default","className":"","baseProps":{}},"parentId":"c85ae359-b601-b5a9-0ed1-2bbf8d55ed85"},{"id":"e46a3c5f-bdd7-40b1-c073-025b669eab15","type":"Button","props":{"size":"m","action":"none","disabled":false,"label":"Кнопка","view":"primary","form":"default","width":"default","className":"","baseProps":{}},"parentId":"c85ae359-b601-b5a9-0ed1-2bbf8d55ed85"},{"id":"c85ae359-b601-b5a9-0ed1-2bbf8d55ed85","type":"Layout","isOuter":true,"props":{"constaProps":{"flex":1,"direction":"row","horizontalAlign":"left","verticalAlign":"top"},"styles":{"alignItems":"center","justifyContent":"space-between"},"className":"","baseProps":{}},"parentId":"991b3386-c831-9981-9b9c-523535b14b7b"}],"description":"RT"}
+{
+    "id": "7e059935-472a-4ced-28c6-66e4b9b8a0d7",
+    "name": "example",
+    "childrenElementList": [
+        {
+            "id": "ed7334c2-69d2-5d57-9ff9-c80d54925e12",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            }
+        },
+        {
+            "id": "d49c7a90-d916-2a32-7ed4-7cf6583ae9b4",
+            "type": "Checkbox",
+            "props": {
+                "checked": false,
+                "size": "s",
+                "view": "primary",
+                "align": "center",
+                "disabled": false,
+                "label": "Checkbox",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "f7554e4f-a002-0e23-dbda-13b697ffea3d"
+        },
+        {
+            "id": "e6997ca6-9d73-90c4-2234-de0472e7f07c",
+            "type": "Checkbox",
+            "props": {
+                "checked": true,
+                "size": "s",
+                "view": "primary",
+                "align": "center",
+                "disabled": false,
+                "label": "Checkbox",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "f7554e4f-a002-0e23-dbda-13b697ffea3d"
+        },
+        {
+            "id": "9a19e491-abc2-211c-b77f-9b1692416fa5",
+            "type": "Text",
+            "props": {
+                "content": "TextText",
+                "size": "s",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "f7554e4f-a002-0e23-dbda-13b697ffea3d"
+        },
+        {
+            "id": "f7554e4f-a002-0e23-dbda-13b697ffea3d",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 6,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "space-between"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "a6caaff7-525b-9c75-ad55-d2938ee8e139"
+        },
+        {
+            "id": "dbdb1ee1-3280-ec66-c803-726d1e98f49f",
+            "type": "Switch",
+            "props": {
+                "size": "s",
+                "view": "ghost",
+                "align": "top",
+                "label": "dfff",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "9498e559-46c9-8516-bdc4-8ac0294d9303"
+        },
+        {
+            "id": "9498e559-46c9-8516-bdc4-8ac0294d9303",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "center"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "a6caaff7-525b-9c75-ad55-d2938ee8e139"
+        },
+        {
+            "id": "a6caaff7-525b-9c75-ad55-d2938ee8e139",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "space-between"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "ed7334c2-69d2-5d57-9ff9-c80d54925e12"
+        },
+        {
+            "id": "60dcfb5a-daae-669a-3af3-c63fe7bcb71d",
+            "type": "Informer",
+            "props": {
+                "label": "Informer1",
+                "title": "Title1",
+                "size": "s",
+                "status": "success",
+                "view": "bordered",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "beef07b5-0bf6-89ef-aad3-935894ae41df"
+        },
+        {
+            "id": "050e50f5-b6a8-3bd0-763a-c0ea7986bfa8",
+            "type": "Informer",
+            "props": {
+                "label": "Informer2",
+                "title": "Title2",
+                "size": "s",
+                "status": "alert",
+                "view": "filled",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "beef07b5-0bf6-89ef-aad3-935894ae41df"
+        },
+        {
+            "id": "fc69121c-6ac4-b3c1-1ef2-e2849172b313",
+            "type": "Informer",
+            "props": {
+                "label": "Informer",
+                "title": "Title",
+                "size": "m",
+                "status": "success",
+                "view": "filled",
+                "className": " m-l-xs m-r-s m-t-xs   m-b-m",
+                "baseProps": {
+                    "margin": {
+                        "marginLeft": "m-l-xs",
+                        "marginRight": "m-r-s",
+                        "marginTop": "m-t-xs",
+                        "marginBottom": "m-b-m"
+                    }
+                },
+                "constaProps": {}
+            },
+            "parentId": "beef07b5-0bf6-89ef-aad3-935894ae41df"
+        },
+        {
+            "id": "beef07b5-0bf6-89ef-aad3-935894ae41df",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "space-around"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "1c7f7425-3889-034c-acc9-09536fb593de"
+        },
+        {
+            "id": "908a14bc-81d9-7f82-7f68-9220d3a653cd",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 4,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "1c7f7425-3889-034c-acc9-09536fb593de"
+        },
+        {
+            "id": "1c7f7425-3889-034c-acc9-09536fb593de",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "backgroundColor": "color-bg-border"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "b517a9e7-6dda-b808-5b4d-23e009d6360f"
+        },
+        {
+            "id": "ee1c5e10-28f5-340b-df09-a71401f527d4",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "30a43116-1098-4fc7-8d55-38b1997283be"
+        },
+        {
+            "id": "d8635b32-2645-325f-977f-d68469b5abdf",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "30a43116-1098-4fc7-8d55-38b1997283be"
+        },
+        {
+            "id": "30a43116-1098-4fc7-8d55-38b1997283be",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "2bf2309a-ba0c-bc25-e5fa-2c1bf20ce85f"
+        },
+        {
+            "id": "2bf2309a-ba0c-bc25-e5fa-2c1bf20ce85f",
+            "type": "Card",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "verticalSpace": "m",
+                    "horizontalSpace": "m",
+                    "form": "square"
+                },
+                "baseProps": {},
+                "className": "",
+                "styles": {
+                    "width": "376px",
+                    "height": "227px"
+                }
+            },
+            "parentId": "214a014e-b5e5-346b-1579-b6d9ef916936"
+        },
+        {
+            "id": "aad7c165-eb58-11b2-b123-a1e94ef3c5b7",
+            "type": "Text",
+            "props": {
+                "content": "Text4",
+                "size": "s",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "5e9d7ea4-765a-63f5-eda6-aba4c723c115"
+        },
+        {
+            "id": "8818cb17-0a46-bbe4-e52b-7077ee31d754",
+            "type": "Text",
+            "props": {
+                "content": "Text2",
+                "size": "s",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "5e9d7ea4-765a-63f5-eda6-aba4c723c115"
+        },
+        {
+            "id": "5e9d7ea4-765a-63f5-eda6-aba4c723c115",
+            "type": "Card",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "verticalSpace": "m",
+                    "horizontalSpace": "m",
+                    "form": "square"
+                },
+                "baseProps": {},
+                "className": "",
+                "styles": {
+                    "width": "376px",
+                    "height": "227px"
+                }
+            },
+            "parentId": "214a014e-b5e5-346b-1579-b6d9ef916936"
+        },
+        {
+            "id": "214a014e-b5e5-346b-1579-b6d9ef916936",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "space-around",
+                    "borderColor": "#392867",
+                    "backgroundColor": "color-bg-secondary"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "b517a9e7-6dda-b808-5b4d-23e009d6360f"
+        },
+        {
+            "id": "b517a9e7-6dda-b808-5b4d-23e009d6360f",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 6,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "ed7334c2-69d2-5d57-9ff9-c80d54925e12"
+        },
+        {
+            "id": "07a8956a-9e6d-f797-a20c-439c3b4b049f",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "Кнопка",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "9c72a59a-bc6a-b656-0da4-ee54146ff6d3"
+        },
+        {
+            "id": "b1a244dc-d68d-4170-72e2-2fcf71d61d18",
+            "type": "Button",
+            "props": {
+                "size": "m",
+                "action": "none",
+                "disabled": false,
+                "label": "Кнопка",
+                "view": "primary",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "9c72a59a-bc6a-b656-0da4-ee54146ff6d3"
+        },
+        {
+            "id": "9c72a59a-bc6a-b656-0da4-ee54146ff6d3",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "space-between"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "ed7334c2-69d2-5d57-9ff9-c80d54925e12"
+        }
+    ],
+    "description": "example"
+}

@@ -6,8 +6,8 @@ import {
 } from "../../templateConstants";
 import { buildChildComponent } from "../buildChildComponent";
 import { buildImports } from "../buildImports";
-import { buildGroupElementProps, buildFormElementProps } from "../buildProps";
-import { getComponentName, getItemName } from "./getComponentName";
+import { buildGroupElementProps } from "../buildProps";
+import { getComponentName } from "./getComponentName";
 
 const fs = require("fs");
 

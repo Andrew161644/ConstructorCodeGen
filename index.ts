@@ -12,7 +12,7 @@ import { INPUT_PATH, OUTPUT_PATH } from "./paths";
 const inputPath = INPUT_PATH;
 const outputPath = OUTPUT_PATH;
 
-const generateDirs = (configPath: string) => {
+const generateDirs = (configPath: string, outputPath: string) => {
   const fs = require("fs");
   let fileContent = fs.readFileSync(configPath, "utf8");
   const project: ComponentModule = parseStringToComponentModule(fileContent);
@@ -29,7 +29,7 @@ try {
   createFolder(outputPath);
 
   componentFiles.forEach((component) => {
-    generateDirs(component);
+    generateDirs(component, outputPath);
   });
 } catch (e) {
   console.log(e);

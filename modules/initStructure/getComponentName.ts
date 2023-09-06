@@ -10,6 +10,7 @@ export const componentNames: Record<ComponentTypes, string> = {
   Switch: "Switch",
   Card: "Card",
   Text: "Text",
+  Informer: "Informer",
 };
 
 export const getComponentName = (componentType: ComponentTypes) => {

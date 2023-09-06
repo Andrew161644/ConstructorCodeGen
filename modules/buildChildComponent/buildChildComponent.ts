@@ -1,5 +1,5 @@
 import { TextElementProps, TreeItem } from "../../coreTypes";
-import { isPropsTypeOf } from "../../utils/isPropsTypeOf";
+import { isPropsTypeOf } from "../../utils";
 import { buildChildContentText } from "../buildChildContent";
 import { buildFormElementProps } from "../buildProps";
 import { getItemName } from "../initStructure";

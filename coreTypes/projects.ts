@@ -6,6 +6,7 @@ import { RadioButtonProps } from "./radioButtonTypes";
 import { SwitchProps } from "./SwitchTypes";
 import { TextProps } from "@consta/uikit/Text";
 import { CardElementPropsStyles } from "./cardTypes";
+import { InformerElementProps } from "./informerTypes";
 
 export type ComponentModule = {
   name: string;
@@ -32,7 +33,8 @@ export type ComponentTypes =
   | "RadioButton"
   | "Switch"
   | "Text"
-  | "Card";
+  | "Card"
+  | "Informer";
 
 export type AllProps =
   | ButtonProps
@@ -42,4 +44,5 @@ export type AllProps =
   | RadioButtonProps
   | SwitchProps
   | TextProps
-  | CardElementPropsStyles;
+  | CardElementPropsStyles
+  | InformerElementProps;
