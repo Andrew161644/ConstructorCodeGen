@@ -15,22 +15,22 @@ export const buildImports = (
     .filter((item) => !isGroupElement(item))
     .map((item) => item.type);
 
-  const visited: Map<string, boolean> = new Map();
+  const improted: Set<string> = new Set();
 
   let imports: string = "import React from 'react'\n";
   imports += baseImports[itemType] + "\n";
 
   dependencyConstaItems.forEach((dep) => {
-    if (!visited.has(dep)) {
+    if (!improted.has(dep)) {
       imports += `${baseImports[dep]}\n`;
-      visited.set(dep, true);
+      improted.add(dep);
     }
   });
 
   dependencyGroupItems.forEach((dep) => {
-    if (!visited.has(dep)) {
+    if (!improted.has(dep)) {
       imports += `import { ${dep} } from './${dep}'\n`;
-      visited.set(dep, true);
+      improted.add(dep);
     }
   });
 
