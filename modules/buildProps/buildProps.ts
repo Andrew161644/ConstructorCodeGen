@@ -7,6 +7,7 @@ import {
   InformerElementProps,
   LayoutElementPropsStyles,
   RadioButtonProps,
+  SelectProps,
   SwitchProps,
   TextElementProps,
   TreeItem,
@@ -20,6 +21,7 @@ import { buildComboboxProps } from "./buildComboboxProps";
 import { buildInformerProps } from "./buildInformerProps";
 import { buildLayoutProps } from "./buildLayoutProps";
 import { buildRadioButtonProps } from "./buildRadioButtonProps";
+import { buildSelectProps } from "./buildSelectProps";
 import { buildSwitchProps } from "./buildSwitchProps";
 import { buildTextProps } from "./buildTextProps";
 
@@ -45,6 +47,8 @@ export const buildFormElementProps = (item: TreeItem, tabs: string) => {
     return buildInformerProps(item.props, tabs);
   } else if (isPropsTypeOf<ComboboxProps>(item.type, item.props, "ComboBox")) {
     return buildComboboxProps(item.props, tabs);
+  } else if (isPropsTypeOf<SelectProps>(item.type, item.props, "SelectForm")) {
+    return buildSelectProps(item.props, tabs);
   }
   return "";
 };

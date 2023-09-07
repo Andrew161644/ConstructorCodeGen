@@ -8,6 +8,7 @@ import { TextProps } from "@consta/uikit/Text";
 import { CardElementPropsStyles } from "./cardTypes";
 import { InformerElementProps } from "./informerTypes";
 import { ComboboxProps } from "./comboBoxTypes";
+import { SelectProps } from "./selectTypes";
 
 export type ComponentModule = {
   name: string;
@@ -36,7 +37,8 @@ export type ComponentTypes =
   | "Text"
   | "Card"
   | "Informer"
-  | "ComboBox";
+  | "ComboBox"
+  | "SelectForm";
 
 export type AllProps =
   | ButtonProps
@@ -48,4 +50,5 @@ export type AllProps =
   | TextProps
   | CardElementPropsStyles
   | InformerElementProps
-  | ComboboxProps;
+  | ComboboxProps
+  | SelectProps;
