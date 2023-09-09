@@ -1,6 +1,6 @@
 import { ElementId, TreeItem } from "../../coreTypes";
 import { isGroupElement } from "../../utils";
-import { Templates, readTemplate } from "../readTemplates";
+import { Template, Templates, readTemplate } from "../readTemplates";
 import { addFilesIndex } from "./addFilesIndex";
 import { addFilesLayout } from "./addFilesLayout";
 import { createFolder } from "./createFolders";
@@ -17,10 +17,10 @@ const addFiles = (
     let fileContent = readTemplate(template);
 
     switch (template) {
-      case "index":
+      case Template.Index:
         addFilesIndex(name, outputFolder, fileContent);
         break;
-      case "Layout":
+      case Template.Layout:
         addFilesLayout(name, outputFolder, fileContent, element, chidlren);
         break;
     }

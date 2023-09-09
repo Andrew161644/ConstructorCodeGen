@@ -5,7 +5,7 @@ const fs = require("fs");
 
 const readLayoutTemplate = () => {
   let fileContent = fs.readFileSync(
-    `${TEMPLATES_PATH}/${Template.Layout}.txt`,
+    `${TEMPLATES_PATH}/${Template.Layout}`,
     "utf8"
   );
   return fileContent;
@@ -13,7 +13,7 @@ const readLayoutTemplate = () => {
 
 const readIndexTemplate = () => {
   let fileContent = fs.readFileSync(
-    `${TEMPLATES_PATH}/${Template.Index}.txt`,
+    `${TEMPLATES_PATH}/${Template.Index}`,
     "utf8"
   );
   return fileContent;
@@ -21,9 +21,9 @@ const readIndexTemplate = () => {
 
 export const readTemplate = (tamplate: Templates) => {
   switch (tamplate) {
-    case "index":
+    case Template.Index:
       return readIndexTemplate();
-    case "Layout":
+    case Template.Layout:
       return readLayoutTemplate();
   }
 };

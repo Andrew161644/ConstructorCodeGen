@@ -5,7 +5,6 @@ export const buildSelectProps = (item: TreeItem, tabs: string) => {
   let propsString = "";
   if (isPropsTypeOf<SelectProps>(item.type, item.props, "SelectForm")) {
     const props = item.props;
-    let propsString = "";
     let key: keyof SelectProps;
     for (key in props) {
       const value = props[key];
