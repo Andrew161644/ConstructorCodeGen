@@ -1,5 +1,5 @@
 import { ButtonProps } from "./buttonTypes";
-import { LayoutElementPropsStyles } from "./layoutTypes";
+import { LayoutElementProps, LayoutElementPropsStyles } from "./layoutTypes";
 import { CheckboxProps } from "./checkboxTypes";
 import { BadgeProps } from "./badgeTypes";
 import { RadioButtonProps } from "./radioButtonTypes";

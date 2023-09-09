@@ -1,6 +1,10 @@
-import { BadgeProps } from "../../coreTypes";
+import { BadgeProps, TreeItem } from "../../coreTypes";
+import { isPropsTypeOf } from "../../utils";
 import { buildDefaultProps } from "./buildDefaultProps";
 
-export const buildBadgeProps = (props: BadgeProps, tabs: string) => {
-  return buildDefaultProps(props, tabs);
+export const buildBadgeProps = (item: TreeItem, tabs: string) => {
+  if (isPropsTypeOf<BadgeProps>(item.type, item.props, "Badge")) {
+    return buildDefaultProps(item.props, tabs);
+  }
+  return "";
 };
