@@ -1,14 +1,16 @@
-import { ButtonProps } from "./buttonTypes";
-import { LayoutElementProps, LayoutElementPropsStyles } from "./layoutTypes";
-import { CheckboxProps } from "./checkboxTypes";
-import { BadgeProps } from "./badgeTypes";
-import { RadioButtonProps } from "./radioButtonTypes";
-import { SwitchProps } from "./SwitchTypes";
 import { TextProps } from "@consta/uikit/Text";
-import { CardElementPropsStyles } from "./cardTypes";
-import { InformerElementProps } from "./informerTypes";
-import { ComboboxProps } from "./comboBoxTypes";
-import { SelectProps } from "./selectTypes";
+import {
+  ButtonProps,
+  LayoutElementPropsStyles,
+  CheckboxProps,
+  BadgeProps,
+  RadioButtonProps,
+  SwitchProps,
+  CardElementPropsStyles,
+  InformerElementProps,
+  ComboboxProps,
+  SelectProps,
+} from "../constructorTypes";
 
 export type ComponentModule = {
   name: string;
