@@ -4,3 +4,4 @@ export { Values } from "./values";
 export { isOfType } from "./isTypeOf";
 export { firstLetterToUppercase } from "./firstLetterToUppercase";
 export { isPropsTypeOf } from "./isPropsTypeOf";
+export { createFolder } from "./createFolders";
