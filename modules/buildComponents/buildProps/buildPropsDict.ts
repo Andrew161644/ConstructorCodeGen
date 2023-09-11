@@ -9,6 +9,7 @@ import { buildLayoutProps } from "./buildLayoutProps";
 import { buildRadioButtonProps } from "./buildRadioButtonProps";
 import { buildSelectProps } from "./buildSelectProps";
 import { buildSwitchProps } from "./buildSwitchProps";
+import { buildTextFieldProps } from "./buildTextFieldProps";
 import { buildTextProps } from "./buildTextProps";
 
 export const buildPropsDict: Record<
@@ -26,4 +27,5 @@ export const buildPropsDict: Record<
   SelectForm: buildSelectProps,
   Switch: buildSwitchProps,
   Text: buildTextProps,
+  TextField: buildTextFieldProps,
 };

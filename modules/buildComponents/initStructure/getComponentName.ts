@@ -13,6 +13,7 @@ export const componentNames: Record<ComponentTypes, string> = {
   Informer: "Informer",
   ComboBox: "Combobox",
   SelectForm: "Select",
+  TextField: "TextField",
 };
 
 export const getComponentName = (componentType: ComponentTypes) => {

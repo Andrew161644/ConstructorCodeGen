@@ -1,9 +1,9 @@
 {
-    "id": "d5b5b3ba-0d44-4224-3c01-e4352e1427ac",
+    "id": "91c4c7a8-e269-83ed-c00e-f214d296ff0d",
     "name": "example",
     "childrenElementList": [
         {
-            "id": "d2f6e478-e249-d8fd-cc25-e4416e228bcd",
+            "id": "9517e71d-78bc-0dbe-aa1f-d9bf8bcef68a",
             "type": "Layout",
             "isOuter": false,
             "props": {
@@ -22,7 +22,7 @@
             }
         },
         {
-            "id": "126c1029-ab73-6e78-2b22-e80ea0944821",
+            "id": "a9092527-036c-a12b-ecc4-0217981c3c43",
             "type": "Checkbox",
             "props": {
                 "checked": false,
@@ -34,10 +34,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "97aa290c-2901-9a62-07c2-a1c0aec868e9"
+            "parentId": "9f10c4d1-525e-3c0a-bdfb-f3e959680930"
         },
         {
-            "id": "06659141-38c2-787d-a362-7d785e2c799a",
+            "id": "21a9b120-ef81-b009-5a50-f7a89b2583df",
             "type": "Checkbox",
             "props": {
                 "checked": true,
@@ -49,10 +49,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "97aa290c-2901-9a62-07c2-a1c0aec868e9"
+            "parentId": "9f10c4d1-525e-3c0a-bdfb-f3e959680930"
         },
         {
-            "id": "f3338b95-3093-b4f7-2969-1cadd9581d2e",
+            "id": "73a9d195-2741-d93c-0657-68f383066fc5",
             "type": "Text",
             "props": {
                 "content": "TextText",
@@ -60,10 +60,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "97aa290c-2901-9a62-07c2-a1c0aec868e9"
+            "parentId": "9f10c4d1-525e-3c0a-bdfb-f3e959680930"
         },
         {
-            "id": "f5fffd27-72bf-0e01-f262-de8e9c4ca933",
+            "id": "8f69d09f-e119-3fd6-aa0d-95e02128db15",
             "type": "RadioButton",
             "props": {
                 "checked": true,
@@ -75,10 +75,10 @@
                 "baseProps": {},
                 "disabled": true
             },
-            "parentId": "97aa290c-2901-9a62-07c2-a1c0aec868e9"
+            "parentId": "9f10c4d1-525e-3c0a-bdfb-f3e959680930"
         },
         {
-            "id": "18e23430-642a-1bd6-c775-6331b081147f",
+            "id": "7a26951f-70b1-1220-eb73-4887b733e255",
             "type": "SelectForm",
             "props": {
                 "content": "Text",
@@ -135,10 +135,10 @@
                 "isLoading": true,
                 "constaProps": {}
             },
-            "parentId": "97aa290c-2901-9a62-07c2-a1c0aec868e9"
+            "parentId": "9f10c4d1-525e-3c0a-bdfb-f3e959680930"
         },
         {
-            "id": "97aa290c-2901-9a62-07c2-a1c0aec868e9",
+            "id": "9f10c4d1-525e-3c0a-bdfb-f3e959680930",
             "type": "Layout",
             "isOuter": false,
             "props": {
@@ -155,10 +155,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "ee3f5e28-56f9-990f-3b43-10c9f06a1248"
+            "parentId": "68475e79-c4c1-a8e4-4226-b10b76df9151"
         },
         {
-            "id": "c9ea8011-c05c-be3f-e189-c57c49634792",
+            "id": "47de83a0-4990-70ac-12ed-f9fffa77ba73",
             "type": "Switch",
             "props": {
                 "size": "s",
@@ -168,10 +168,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "c5468d76-6734-da0a-072c-32f7b3438236"
+            "parentId": "13c023b2-0bc8-76a1-6997-1dbb806c91b0"
         },
         {
-            "id": "c5468d76-6734-da0a-072c-32f7b3438236",
+            "id": "13c023b2-0bc8-76a1-6997-1dbb806c91b0",
             "type": "Layout",
             "isOuter": true,
             "props": {
@@ -188,10 +188,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "ee3f5e28-56f9-990f-3b43-10c9f06a1248"
+            "parentId": "68475e79-c4c1-a8e4-4226-b10b76df9151"
         },
         {
-            "id": "ee3f5e28-56f9-990f-3b43-10c9f06a1248",
+            "id": "68475e79-c4c1-a8e4-4226-b10b76df9151",
             "type": "Layout",
             "isOuter": false,
             "props": {
@@ -208,10 +208,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "d2f6e478-e249-d8fd-cc25-e4416e228bcd"
+            "parentId": "9517e71d-78bc-0dbe-aa1f-d9bf8bcef68a"
         },
         {
-            "id": "244d5bff-704e-433b-926f-c10a828fbfe9",
+            "id": "c9bbee3c-5895-862d-b83c-21e6876c9b88",
             "type": "Informer",
             "props": {
                 "label": "Informer1",
@@ -222,10 +222,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "73e2441b-9a83-fded-ceac-4fdeeed585e8"
+            "parentId": "3d3258f2-330f-ec55-3c1e-6af2d0d5adf6"
         },
         {
-            "id": "3039d048-bed5-258b-a9fe-fd5f4726ffab",
+            "id": "3b0f226f-f608-f82b-bcab-fcd0640fb452",
             "type": "Informer",
             "props": {
                 "label": "Informer2",
@@ -236,10 +236,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "73e2441b-9a83-fded-ceac-4fdeeed585e8"
+            "parentId": "3d3258f2-330f-ec55-3c1e-6af2d0d5adf6"
         },
         {
-            "id": "a0848acb-ad19-ee30-1f76-951075c75d81",
+            "id": "d4dd11df-afed-9b7f-1015-2d5a9661ab57",
             "type": "Informer",
             "props": {
                 "label": "Informer",
@@ -258,10 +258,10 @@
                 },
                 "constaProps": {}
             },
-            "parentId": "73e2441b-9a83-fded-ceac-4fdeeed585e8"
+            "parentId": "3d3258f2-330f-ec55-3c1e-6af2d0d5adf6"
         },
         {
-            "id": "73e2441b-9a83-fded-ceac-4fdeeed585e8",
+            "id": "3d3258f2-330f-ec55-3c1e-6af2d0d5adf6",
             "type": "Layout",
             "isOuter": false,
             "props": {
@@ -278,10 +278,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "b5556f99-f85a-0b1c-e147-f83da558d841"
+            "parentId": "149e37ed-6536-8691-2722-c0bd161d9942"
         },
         {
-            "id": "e300a558-ada1-5465-8337-c00ad89d37f0",
+            "id": "24d34ca2-dc58-3cd9-dd7c-cc593d4b6773",
             "type": "ComboBox",
             "props": {
                 "size": "s",
@@ -338,15 +338,71 @@
                 "multiple": true,
                 "constaProps": {}
             },
-            "parentId": "0eeaccc2-1fdf-b4f8-21e5-3633ab47d016"
+            "parentId": "6778c284-ebca-a5d0-dbae-c9b4f9a42b34"
         },
         {
-            "id": "0eeaccc2-1fdf-b4f8-21e5-3633ab47d016",
+            "id": "6778c284-ebca-a5d0-dbae-c9b4f9a42b34",
             "type": "Layout",
             "isOuter": true,
             "props": {
                 "constaProps": {
-                    "flex": 4,
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "149e37ed-6536-8691-2722-c0bd161d9942"
+        },
+        {
+            "id": "f111fc2c-ddca-4d28-c577-ffee6a680925",
+            "type": "TextField",
+            "props": {
+                "type": "number",
+                "width": "full",
+                "form": "round",
+                "size": "m",
+                "view": "default",
+                "caption": "Подпись1",
+                "label": "Заголовок1",
+                "labelPosition": "left",
+                "maxLength": "150",
+                "placeholder": "Подсказка в поле1",
+                "step": "1",
+                "min": "1",
+                "max": "400",
+                "className": "p-l-xs p-r-xs  p-b-xs  p-t-xl",
+                "baseProps": {
+                    "padding": {
+                        "paddingLeft": "p-l-xs",
+                        "paddingRight": "p-r-xs",
+                        "paddingTop": "p-t-xl",
+                        "paddingBottom": "p-b-xs"
+                    }
+                },
+                "disabled": false,
+                "required": true,
+                "status": "warning",
+                "filled": "filled",
+                "incrementButtons": true,
+                "withClearButton": true,
+                "constaProps": {}
+            },
+            "parentId": "b17d0f0e-f565-2797-a87e-6b96eed08286"
+        },
+        {
+            "id": "b17d0f0e-f565-2797-a87e-6b96eed08286",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
                     "direction": "row",
                     "horizontalAlign": "left",
                     "verticalAlign": "top"
@@ -358,10 +414,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "b5556f99-f85a-0b1c-e147-f83da558d841"
+            "parentId": "149e37ed-6536-8691-2722-c0bd161d9942"
         },
         {
-            "id": "b5556f99-f85a-0b1c-e147-f83da558d841",
+            "id": "149e37ed-6536-8691-2722-c0bd161d9942",
             "type": "Layout",
             "isOuter": false,
             "props": {
@@ -379,10 +435,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "00adf38d-ab74-23f5-5c55-2a94f657621c"
+            "parentId": "92248352-6398-cae9-0b4f-a2644466dfd5"
         },
         {
-            "id": "bc2418ff-803e-ee5a-a097-7a2d7bba1aab",
+            "id": "d333adf6-914f-5efa-8ea6-9361dfc62b2e",
             "type": "Layout",
             "isOuter": false,
             "props": {
@@ -399,10 +455,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "78927fa1-1fb6-43f4-caec-c1d063d7e5a8"
+            "parentId": "92a7f32d-9536-baea-8aa5-9ab553ac6da5"
         },
         {
-            "id": "eefd149c-b2bd-231c-c9a1-24690d9db9e1",
+            "id": "2eb08ad2-17a7-c6d2-f9dd-c3c0c8441775",
             "type": "Layout",
             "isOuter": true,
             "props": {
@@ -421,10 +477,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "78927fa1-1fb6-43f4-caec-c1d063d7e5a8"
+            "parentId": "92a7f32d-9536-baea-8aa5-9ab553ac6da5"
         },
         {
-            "id": "78927fa1-1fb6-43f4-caec-c1d063d7e5a8",
+            "id": "92a7f32d-9536-baea-8aa5-9ab553ac6da5",
             "type": "Layout",
             "isOuter": false,
             "props": {
@@ -441,10 +497,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "d4598c9e-64c3-5cb2-0937-9a791e8ecceb"
+            "parentId": "01b6461e-16c1-eaf1-4023-218662d69885"
         },
         {
-            "id": "d4598c9e-64c3-5cb2-0937-9a791e8ecceb",
+            "id": "01b6461e-16c1-eaf1-4023-218662d69885",
             "type": "Card",
             "isOuter": false,
             "props": {
@@ -460,10 +516,10 @@
                     "height": "227px"
                 }
             },
-            "parentId": "971bc993-eca9-83fe-3e5c-42409dc05cdf"
+            "parentId": "c1ccf43e-fc2f-b23e-cc47-6210530594a9"
         },
         {
-            "id": "cfcbb5f4-f8f0-c949-c577-d9e493edaf2a",
+            "id": "f7bcb47f-16f3-28c3-50ea-5577cc078e48",
             "type": "Text",
             "props": {
                 "content": "Text4",
@@ -471,10 +527,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "d1fe1e55-fa57-06aa-7050-516d1f1ec870"
+            "parentId": "782576e6-37a7-ef6d-57a4-0d37f469fced"
         },
         {
-            "id": "05d97c4d-be8a-272c-57b4-6a4c9a2484a8",
+            "id": "66efa158-ea46-7512-4a32-80922590b26e",
             "type": "Text",
             "props": {
                 "content": "Text2",
@@ -482,10 +538,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "d1fe1e55-fa57-06aa-7050-516d1f1ec870"
+            "parentId": "782576e6-37a7-ef6d-57a4-0d37f469fced"
         },
         {
-            "id": "d1fe1e55-fa57-06aa-7050-516d1f1ec870",
+            "id": "782576e6-37a7-ef6d-57a4-0d37f469fced",
             "type": "Card",
             "isOuter": false,
             "props": {
@@ -501,10 +557,10 @@
                     "height": "227px"
                 }
             },
-            "parentId": "971bc993-eca9-83fe-3e5c-42409dc05cdf"
+            "parentId": "c1ccf43e-fc2f-b23e-cc47-6210530594a9"
         },
         {
-            "id": "971bc993-eca9-83fe-3e5c-42409dc05cdf",
+            "id": "c1ccf43e-fc2f-b23e-cc47-6210530594a9",
             "type": "Layout",
             "isOuter": true,
             "props": {
@@ -523,10 +579,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "00adf38d-ab74-23f5-5c55-2a94f657621c"
+            "parentId": "92248352-6398-cae9-0b4f-a2644466dfd5"
         },
         {
-            "id": "00adf38d-ab74-23f5-5c55-2a94f657621c",
+            "id": "92248352-6398-cae9-0b4f-a2644466dfd5",
             "type": "Layout",
             "isOuter": true,
             "props": {
@@ -543,10 +599,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "d2f6e478-e249-d8fd-cc25-e4416e228bcd"
+            "parentId": "9517e71d-78bc-0dbe-aa1f-d9bf8bcef68a"
         },
         {
-            "id": "6d653e1b-2a74-6f34-9fc7-9aa53b640e97",
+            "id": "bb70caf5-938c-7718-14bb-315a0254cc13",
             "type": "Button",
             "props": {
                 "size": "m",
@@ -559,10 +615,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "0b013c76-a2a0-e8ab-c75c-e75fbf8c15a0"
+            "parentId": "3f7d257c-839e-2241-095b-837907b74bdc"
         },
         {
-            "id": "70fb5205-fcc2-be4d-8ba0-aacba7cf886a",
+            "id": "1695bb81-22b3-98a7-baef-449d7672b5e9",
             "type": "Button",
             "props": {
                 "size": "m",
@@ -575,10 +631,10 @@
                 "className": "",
                 "baseProps": {}
             },
-            "parentId": "0b013c76-a2a0-e8ab-c75c-e75fbf8c15a0"
+            "parentId": "3f7d257c-839e-2241-095b-837907b74bdc"
         },
         {
-            "id": "0b013c76-a2a0-e8ab-c75c-e75fbf8c15a0",
+            "id": "3f7d257c-839e-2241-095b-837907b74bdc",
             "type": "Layout",
             "isOuter": true,
             "props": {
@@ -600,7 +656,7 @@
                     }
                 }
             },
-            "parentId": "d2f6e478-e249-d8fd-cc25-e4416e228bcd"
+            "parentId": "9517e71d-78bc-0dbe-aa1f-d9bf8bcef68a"
         }
     ],
     "description": "example"

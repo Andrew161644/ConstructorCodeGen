@@ -10,6 +10,7 @@ import {
   InformerElementProps,
   ComboboxProps,
   SelectProps,
+  TextFieldProps,
 } from "../constructorTypes";
 
 export type ComponentModule = {
@@ -40,7 +41,8 @@ export type ComponentTypes =
   | "Card"
   | "Informer"
   | "ComboBox"
-  | "SelectForm";
+  | "SelectForm"
+  | "TextField";
 
 export type AllProps =
   | ButtonProps
@@ -53,4 +55,5 @@ export type AllProps =
   | CardElementPropsStyles
   | InformerElementProps
   | ComboboxProps
-  | SelectProps;
+  | SelectProps
+  | TextFieldProps;
