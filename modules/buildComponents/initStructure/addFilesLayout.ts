@@ -6,7 +6,7 @@ import {
 } from "../../../templateConstants";
 import { buildChildComponent } from "../buildChildComponent";
 import { buildImports } from "../buildImports";
-import { buildGroupElementProps } from "../buildProps";
+import { buildElementProps } from "../buildProps";
 import { getComponentName } from "./getComponentName";
 
 const fs = require("fs");
@@ -43,7 +43,7 @@ const replaceContentLayout = (
   if (!chldrenItems.length) {
     content = content?.replaceAll(
       COMPONENT_TYPE,
-      `(\n\t\t<${getComponentName(element.type)} ${buildGroupElementProps(
+      `(\n\t\t<${getComponentName(element.type)} ${buildElementProps(
         element,
         "\t\t"
       )}/>\n\t\t);`
@@ -51,7 +51,7 @@ const replaceContentLayout = (
   } else {
     let componentCode = `(\n\t\t<${getComponentName(
       element.type
-    )} ${buildGroupElementProps(element, "\t\t")}>\n`;
+    )} ${buildElementProps(element, "\t\t")}>\n`;
     chldrenItems.forEach((childItem) => {
       componentCode += `\t\t\t\t${buildChildComponent(
         childItem,

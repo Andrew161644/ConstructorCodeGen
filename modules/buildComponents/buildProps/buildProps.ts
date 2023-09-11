@@ -10,6 +10,6 @@ export const buildFormElementProps = (item: TreeItem, tabs: string) => {
   return buildPropsDict[item.type](item, tabs);
 };
 
-export const buildGroupElementProps = (item: TreeItem, tabs: string) => {
+export const buildElementProps = (item: TreeItem, tabs: string) => {
   return buildPropsDict[item.type](item, tabs);
 };

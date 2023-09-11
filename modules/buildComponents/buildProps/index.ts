@@ -1,1 +1,1 @@
-export { buildFormElementProps, buildGroupElementProps } from "./buildProps";
+export { buildFormElementProps, buildElementProps } from "./buildProps";
