@@ -11,6 +11,8 @@ import {
   ComboboxProps,
   SelectProps,
   TextFieldProps,
+  TabsElementProps,
+  DatePickerProps,
 } from "../constructorTypes";
 
 export type ComponentModule = {
@@ -42,7 +44,9 @@ export type ComponentTypes =
   | "Informer"
   | "ComboBox"
   | "SelectForm"
-  | "TextField";
+  | "TextField"
+  | "Tabs"
+  | "DatePicker";
 
 export type AllProps =
   | ButtonProps
@@ -56,4 +60,6 @@ export type AllProps =
   | InformerElementProps
   | ComboboxProps
   | SelectProps
-  | TextFieldProps;
+  | TextFieldProps
+  | TabsElementProps
+  | DatePickerProps;

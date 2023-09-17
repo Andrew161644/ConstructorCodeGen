@@ -14,6 +14,8 @@ export const componentNames: Record<ComponentTypes, string> = {
   ComboBox: "Combobox",
   SelectForm: "Select",
   TextField: "TextField",
+  Tabs: "Tabs",
+  DatePicker: "DatePicker",
 };
 
 export const getComponentName = (componentType: ComponentTypes) => {

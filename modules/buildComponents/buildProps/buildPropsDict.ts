@@ -4,11 +4,13 @@ import { buildButtonProps } from "./buildButtonProps";
 import { buildCardProps } from "./buildCardProps";
 import { buildCheckboxProps } from "./buildCheckboxProps";
 import { buildComboboxProps } from "./buildComboboxProps";
+import { buildDatePickerProps } from "./buildDatePickerProps";
 import { buildInformerProps } from "./buildInformerProps";
 import { buildLayoutProps } from "./buildLayoutProps";
 import { buildRadioButtonProps } from "./buildRadioButtonProps";
 import { buildSelectProps } from "./buildSelectProps";
 import { buildSwitchProps } from "./buildSwitchProps";
+import { buildTabsProps } from "./buildTabsProps";
 import { buildTextFieldProps } from "./buildTextFieldProps";
 import { buildTextProps } from "./buildTextProps";
 
@@ -28,4 +30,6 @@ export const buildPropsDict: Record<
   Switch: buildSwitchProps,
   Text: buildTextProps,
   TextField: buildTextFieldProps,
+  Tabs: buildTabsProps,
+  DatePicker: buildDatePickerProps,
 };

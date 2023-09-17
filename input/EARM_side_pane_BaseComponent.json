@@ -1,0 +1,1682 @@
+{
+    "id": "23b4ce3d-4447-efd8-f19a-23faf1ce5e3b",
+    "name": "EARM_side_pane",
+    "childrenElementList": [
+        {
+            "id": "2edcfdfa-34c7-b8b6-6276-044c500033c4",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "maxWidth": "350px",
+                    "minWidth": "350px",
+                    "borderStyle": "solid",
+                    "borderWidth": "thin",
+                    "borderSide": "borderLeft",
+                    "borderColor": "#cbd4da"
+                },
+                "className": "    ",
+                "baseProps": {
+                    "padding": {
+                        "paddingLeft": "",
+                        "paddingRight": ""
+                    },
+                    "margin": {
+                        "marginRight": ""
+                    }
+                }
+            }
+        },
+        {
+            "id": "d136a988-d3f6-d8e3-4dd1-1cff45ab6a8e",
+            "type": "Text",
+            "props": {
+                "content": "Скважина 492",
+                "size": "l",
+                "className": "",
+                "baseProps": {},
+                "view": "primary"
+            },
+            "parentId": "7679e02f-7462-439b-ea3e-6cd99bbea34a"
+        },
+        {
+            "id": "bf77f18b-a49c-5d99-eea4-a97878da3517",
+            "type": "Button",
+            "props": {
+                "size": "xs",
+                "action": "none",
+                "disabled": false,
+                "label": "Кнопка",
+                "view": "clear",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {},
+                "iconLeft": true,
+                "icon": "IconClose",
+                "onlyIcon": true
+            },
+            "parentId": "7679e02f-7462-439b-ea3e-6cd99bbea34a"
+        },
+        {
+            "id": "7679e02f-7462-439b-ea3e-6cd99bbea34a",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "space-between",
+                    "maxHeight": "40px",
+                    "minHeight": "40px"
+                },
+                "className": "p-t-xs   ",
+                "baseProps": {
+                    "padding": {
+                        "paddingTop": "p-t-xs",
+                        "paddingBottom": ""
+                    }
+                }
+            },
+            "parentId": "984febea-0b00-dd27-bcfa-9cbfc01e39b9"
+        },
+        {
+            "id": "197d33b5-c4bf-755f-d457-00f76bc2cc3c",
+            "type": "Tabs",
+            "props": {
+                "view": "clear",
+                "className": "",
+                "baseProps": {},
+                "value": {
+                    "id": 0,
+                    "label": "Ограничения"
+                },
+                "items": [
+                    {
+                        "id": 0,
+                        "label": "Ограничения"
+                    },
+                    {
+                        "id": 1,
+                        "label": "История ОЗ"
+                    },
+                    {
+                        "id": 2,
+                        "label": "Ошибки"
+                    }
+                ],
+                "linePosition": "bottom",
+                "fitMode": "scroll",
+                "size": "xs"
+            },
+            "parentId": "e6a7346c-046c-7e18-6425-2831863d3024"
+        },
+        {
+            "id": "e6a7346c-046c-7e18-6425-2831863d3024",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "maxHeight": "33px",
+                    "minHeight": "33px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "984febea-0b00-dd27-bcfa-9cbfc01e39b9"
+        },
+        {
+            "id": "984febea-0b00-dd27-bcfa-9cbfc01e39b9",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "borderColor": "#cbd4da",
+                    "borderSide": "borderBottom",
+                    "borderWidth": "thin",
+                    "borderStyle": "solid",
+                    "maxHeight": "73px",
+                    "minHeight": "73px"
+                },
+                "className": "p-l-s   p-r-s",
+                "baseProps": {
+                    "padding": {
+                        "paddingLeft": "p-l-s",
+                        "paddingRight": "p-r-s"
+                    }
+                }
+            },
+            "parentId": "2edcfdfa-34c7-b8b6-6276-044c500033c4"
+        },
+        {
+            "id": "94045275-00c7-6e6d-8704-b09fd3e31d51",
+            "type": "Text",
+            "props": {
+                "content": "Текущие значения",
+                "size": "xs",
+                "className": "",
+                "baseProps": {},
+                "font": "primary",
+                "weight": "semibold"
+            },
+            "parentId": "546b4fc4-bb4f-0bb5-6845-4ba358a15e7b"
+        },
+        {
+            "id": "546b4fc4-bb4f-0bb5-6845-4ba358a15e7b",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "space-between",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "b7041967-1560-bf59-49ff-efbf88cd8dd8"
+        },
+        {
+            "id": "a017c2b1-17fb-5f68-ee10-09e1ab30edc6",
+            "type": "Text",
+            "props": {
+                "content": "Pзаб цел, атм",
+                "size": "xs",
+                "className": "",
+                "baseProps": {},
+                "view": "secondary"
+            },
+            "parentId": "72955cb2-3edd-628a-3934-23e2794881b2"
+        },
+        {
+            "id": "72955cb2-3edd-628a-3934-23e2794881b2",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "554154a8-60fd-fc9a-3a16-2d1bdba60055"
+        },
+        {
+            "id": "824d9d3d-adc1-718e-b5c3-797a2d6e786e",
+            "type": "Text",
+            "props": {
+                "content": "4 675",
+                "size": "xs",
+                "className": "",
+                "baseProps": {},
+                "weight": "semibold"
+            },
+            "parentId": "3b8c1278-b8f6-773d-76a6-34405fa754c3"
+        },
+        {
+            "id": "3b8c1278-b8f6-773d-76a6-34405fa754c3",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "554154a8-60fd-fc9a-3a16-2d1bdba60055"
+        },
+        {
+            "id": "554154a8-60fd-fc9a-3a16-2d1bdba60055",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "f93a7e21-91cc-84f1-0e39-a590ee3ccfa0"
+        },
+        {
+            "id": "03d8cf79-d33f-2683-2aea-34473bae7017",
+            "type": "Text",
+            "props": {
+                "content": "Qг/г, тыс м3",
+                "size": "xs",
+                "className": "",
+                "baseProps": {},
+                "view": "secondary"
+            },
+            "parentId": "c9c31102-33aa-1390-11f4-ea8ecb2aa918"
+        },
+        {
+            "id": "c9c31102-33aa-1390-11f4-ea8ecb2aa918",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "4f9fa229-94f1-6555-baa0-ea876a6a1d4d"
+        },
+        {
+            "id": "b3d7ff48-795a-cd8c-31a9-5f2af5e0be54",
+            "type": "Text",
+            "props": {
+                "content": "1 200",
+                "size": "xs",
+                "className": "",
+                "baseProps": {},
+                "weight": "semibold"
+            },
+            "parentId": "5621394a-b3ec-d3d3-a4e8-3dcf28a555ec"
+        },
+        {
+            "id": "5621394a-b3ec-d3d3-a4e8-3dcf28a555ec",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "4f9fa229-94f1-6555-baa0-ea876a6a1d4d"
+        },
+        {
+            "id": "4f9fa229-94f1-6555-baa0-ea876a6a1d4d",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "f93a7e21-91cc-84f1-0e39-a590ee3ccfa0"
+        },
+        {
+            "id": "95e81b96-1161-f26b-f1e4-029580685695",
+            "type": "Text",
+            "props": {
+                "content": "КВЧ, мг/л",
+                "size": "xs",
+                "className": "",
+                "baseProps": {},
+                "view": "secondary"
+            },
+            "parentId": "30b1d5cc-20c7-0f75-4a9f-c1bbfeaab1fc"
+        },
+        {
+            "id": "30b1d5cc-20c7-0f75-4a9f-c1bbfeaab1fc",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "dcfaaba9-275c-3630-eb81-ed2b4c618c68"
+        },
+        {
+            "id": "bb98ed44-a210-0bcc-085c-d3c4f110ef00",
+            "type": "Text",
+            "props": {
+                "content": "150",
+                "size": "xs",
+                "className": "",
+                "baseProps": {},
+                "weight": "semibold"
+            },
+            "parentId": "1fcdddbb-fa19-8ac7-8b2c-df6d45ce6c04"
+        },
+        {
+            "id": "1fcdddbb-fa19-8ac7-8b2c-df6d45ce6c04",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "dcfaaba9-275c-3630-eb81-ed2b4c618c68"
+        },
+        {
+            "id": "dcfaaba9-275c-3630-eb81-ed2b4c618c68",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "f93a7e21-91cc-84f1-0e39-a590ee3ccfa0"
+        },
+        {
+            "id": "ab5ec5f3-7935-1116-23df-9cf557e1fcc2",
+            "type": "Text",
+            "props": {
+                "content": "МРП, сут",
+                "size": "xs",
+                "className": "",
+                "baseProps": {},
+                "view": "secondary"
+            },
+            "parentId": "1203a41f-9aaf-7cb4-9ddc-ba0bca259d8c"
+        },
+        {
+            "id": "1203a41f-9aaf-7cb4-9ddc-ba0bca259d8c",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "5522c6c0-1fb0-2e4a-9a1e-ecac240e5c36"
+        },
+        {
+            "id": "46d7ce4b-0b9c-2123-3eed-03cd0813522f",
+            "type": "Text",
+            "props": {
+                "content": "559",
+                "size": "xs",
+                "className": "",
+                "baseProps": {},
+                "weight": "semibold"
+            },
+            "parentId": "f3e90c93-2543-d3f5-a65f-b8627fbd7a6d"
+        },
+        {
+            "id": "f3e90c93-2543-d3f5-a65f-b8627fbd7a6d",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "5522c6c0-1fb0-2e4a-9a1e-ecac240e5c36"
+        },
+        {
+            "id": "5522c6c0-1fb0-2e4a-9a1e-ecac240e5c36",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "f93a7e21-91cc-84f1-0e39-a590ee3ccfa0"
+        },
+        {
+            "id": "f93a7e21-91cc-84f1-0e39-a590ee3ccfa0",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "b7041967-1560-bf59-49ff-efbf88cd8dd8"
+        },
+        {
+            "id": "b7041967-1560-bf59-49ff-efbf88cd8dd8",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "maxHeight": "160px",
+                    "minHeight": "160px"
+                },
+                "className": "   m-b-xs",
+                "baseProps": {
+                    "padding": {
+                        "paddingBottom": ""
+                    },
+                    "margin": {
+                        "marginBottom": "m-b-xs"
+                    }
+                }
+            },
+            "parentId": "aab4a8be-e041-f25a-5159-97ac3209bf18"
+        },
+        {
+            "id": "a85a71c4-36b3-ba58-fa08-c24038753bde",
+            "type": "Text",
+            "props": {
+                "content": "Рисковый потенциал",
+                "size": "xs",
+                "className": "",
+                "baseProps": {},
+                "weight": "semibold"
+            },
+            "parentId": "3c0572d8-3ffb-e985-b135-47204b37f98d"
+        },
+        {
+            "id": "5d515657-5958-e944-7b31-400b0385a2f5",
+            "type": "Button",
+            "props": {
+                "size": "xs",
+                "action": "none",
+                "disabled": true,
+                "label": "Кнопка",
+                "view": "clear",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {},
+                "iconLeft": true,
+                "onlyIcon": true,
+                "icon": "IconRevert"
+            },
+            "parentId": "3c0572d8-3ffb-e985-b135-47204b37f98d"
+        },
+        {
+            "id": "3c0572d8-3ffb-e985-b135-47204b37f98d",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "space-between",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "   m-b-xs",
+                "baseProps": {
+                    "padding": {
+                        "paddingBottom": ""
+                    },
+                    "margin": {
+                        "marginBottom": "m-b-xs"
+                    }
+                }
+            },
+            "parentId": "b33aa8f2-e6e8-b622-58a1-d6c739a08747"
+        },
+        {
+            "id": "7370fec9-e4b9-693a-04a7-f040320f7f0f",
+            "type": "SelectForm",
+            "props": {
+                "content": "Text",
+                "size": "xs",
+                "view": "default",
+                "form": "default",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "placeholder": "Выберите цвет",
+                "className": "",
+                "baseProps": {},
+                "value": {
+                    "label": "Первый",
+                    "id": 1
+                },
+                "items": [
+                    {
+                        "label": "Первый",
+                        "id": 1
+                    },
+                    {
+                        "label": "Второй",
+                        "id": 2
+                    },
+                    {
+                        "label": "Третий",
+                        "id": 3
+                    }
+                ]
+            },
+            "parentId": "f9e95e26-8d83-6306-4425-83b497e8a5c3"
+        },
+        {
+            "id": "f9e95e26-8d83-6306-4425-83b497e8a5c3",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "maxHeight": "30px",
+                    "minHeight": "30px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "43bb0b81-ff97-d672-c819-cfcba2f16d3e"
+        },
+        {
+            "id": "be3aaaa0-8b83-c36a-a5c8-3a954bce454f",
+            "type": "Checkbox",
+            "props": {
+                "checked": false,
+                "size": "s",
+                "view": "primary",
+                "align": "center",
+                "disabled": false,
+                "label": "Измене.",
+                "className": "   m-r-xs",
+                "baseProps": {
+                    "margin": {
+                        "marginRight": "m-r-xs"
+                    }
+                },
+                "constaProps": {}
+            },
+            "parentId": "f528461c-585f-2ade-6056-62ecada3c611"
+        },
+        {
+            "id": "5efa1855-288a-4476-4e89-70b71ba15555",
+            "type": "TextField",
+            "props": {
+                "type": "text",
+                "width": "default",
+                "form": "defaultBrick",
+                "size": "xs",
+                "view": "default",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "maxLength": 200,
+                "placeholder": "Подсказка в поле",
+                "step": "1",
+                "min": "0",
+                "max": "200",
+                "className": "",
+                "baseProps": {},
+                "withClearButton": false,
+                "disabled": true
+            },
+            "parentId": "f528461c-585f-2ade-6056-62ecada3c611"
+        },
+        {
+            "id": "3f300c29-87d2-7c27-b5f8-29162c7ecdde",
+            "type": "SelectForm",
+            "props": {
+                "content": "Text",
+                "size": "xs",
+                "view": "default",
+                "form": "clearDefault",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "placeholder": "Выберите цвет",
+                "className": "",
+                "baseProps": {},
+                "value": {
+                    "label": "Первый",
+                    "id": 1
+                },
+                "items": [
+                    {
+                        "label": "Первый",
+                        "id": 1
+                    },
+                    {
+                        "label": "Второй",
+                        "id": 2
+                    },
+                    {
+                        "label": "Третий",
+                        "id": 3
+                    }
+                ],
+                "disabled": true
+            },
+            "parentId": "f528461c-585f-2ade-6056-62ecada3c611"
+        },
+        {
+            "id": "f528461c-585f-2ade-6056-62ecada3c611",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "228a413d-3393-ebe7-a0ff-72ca365448b5"
+        },
+        {
+            "id": "3c2a0cfd-7d1c-1905-db81-cafa40ed1d4c",
+            "type": "Checkbox",
+            "props": {
+                "checked": false,
+                "size": "s",
+                "view": "primary",
+                "align": "center",
+                "disabled": false,
+                "label": "Измене.",
+                "className": "   m-r-xs",
+                "baseProps": {
+                    "margin": {
+                        "marginRight": "m-r-xs"
+                    }
+                },
+                "constaProps": {}
+            },
+            "parentId": "91c88172-763f-7397-d6ad-012b9eed5e26"
+        },
+        {
+            "id": "0ab73e33-daf3-11f5-8365-3597097a2b13",
+            "type": "TextField",
+            "props": {
+                "type": "text",
+                "width": "default",
+                "form": "defaultBrick",
+                "size": "xs",
+                "view": "default",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "maxLength": 200,
+                "placeholder": "Подсказка в поле",
+                "step": "1",
+                "min": "0",
+                "max": "200",
+                "className": "",
+                "baseProps": {},
+                "withClearButton": false,
+                "disabled": true
+            },
+            "parentId": "91c88172-763f-7397-d6ad-012b9eed5e26"
+        },
+        {
+            "id": "27c4b714-ce5c-cc72-0881-4bd009ca407f",
+            "type": "SelectForm",
+            "props": {
+                "content": "Text",
+                "size": "xs",
+                "view": "default",
+                "form": "clearDefault",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "placeholder": "Выберите цвет",
+                "className": "",
+                "baseProps": {},
+                "value": {
+                    "label": "Первый",
+                    "id": 1
+                },
+                "items": [
+                    {
+                        "label": "Первый",
+                        "id": 1
+                    },
+                    {
+                        "label": "Второй",
+                        "id": 2
+                    },
+                    {
+                        "label": "Третий",
+                        "id": 3
+                    }
+                ],
+                "disabled": true
+            },
+            "parentId": "91c88172-763f-7397-d6ad-012b9eed5e26"
+        },
+        {
+            "id": "91c88172-763f-7397-d6ad-012b9eed5e26",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "228a413d-3393-ebe7-a0ff-72ca365448b5"
+        },
+        {
+            "id": "92fd3356-fd5f-6402-0985-85c4b4bcd3e3",
+            "type": "Checkbox",
+            "props": {
+                "checked": true,
+                "size": "s",
+                "view": "primary",
+                "align": "center",
+                "disabled": false,
+                "label": "Граница",
+                "className": "   m-r-xs",
+                "baseProps": {
+                    "margin": {
+                        "marginRight": "m-r-xs"
+                    }
+                },
+                "constaProps": {}
+            },
+            "parentId": "37f96ce2-c970-8386-29ca-4fd82976dca8"
+        },
+        {
+            "id": "01f4f784-f409-19b6-6690-c53c8b15374b",
+            "type": "TextField",
+            "props": {
+                "type": "text",
+                "width": "default",
+                "form": "default",
+                "size": "xs",
+                "view": "default",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "maxLength": 200,
+                "placeholder": "Подсказка в поле",
+                "step": "1",
+                "min": "0",
+                "max": "200",
+                "className": "",
+                "baseProps": {},
+                "withClearButton": false
+            },
+            "parentId": "37f96ce2-c970-8386-29ca-4fd82976dca8"
+        },
+        {
+            "id": "37f96ce2-c970-8386-29ca-4fd82976dca8",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "228a413d-3393-ebe7-a0ff-72ca365448b5"
+        },
+        {
+            "id": "e1201662-4f3a-559b-dda1-731d71ff67f0",
+            "type": "Checkbox",
+            "props": {
+                "checked": true,
+                "size": "s",
+                "view": "primary",
+                "align": "center",
+                "disabled": false,
+                "label": "Граница",
+                "className": "   m-r-xs",
+                "baseProps": {
+                    "margin": {
+                        "marginRight": "m-r-xs"
+                    }
+                },
+                "constaProps": {}
+            },
+            "parentId": "462db669-51ec-34fd-8003-35e1a60fdef5"
+        },
+        {
+            "id": "c61bce55-3159-3bf4-e6c6-87dbbc1e1bd7",
+            "type": "TextField",
+            "props": {
+                "type": "text",
+                "width": "default",
+                "form": "default",
+                "size": "xs",
+                "view": "default",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "maxLength": 200,
+                "placeholder": "Подсказка в поле",
+                "step": "1",
+                "min": "0",
+                "max": "200",
+                "className": "",
+                "baseProps": {},
+                "withClearButton": false
+            },
+            "parentId": "462db669-51ec-34fd-8003-35e1a60fdef5"
+        },
+        {
+            "id": "462db669-51ec-34fd-8003-35e1a60fdef5",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "228a413d-3393-ebe7-a0ff-72ca365448b5"
+        },
+        {
+            "id": "228a413d-3393-ebe7-a0ff-72ca365448b5",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "43bb0b81-ff97-d672-c819-cfcba2f16d3e"
+        },
+        {
+            "id": "43bb0b81-ff97-d672-c819-cfcba2f16d3e",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "b33aa8f2-e6e8-b622-58a1-d6c739a08747"
+        },
+        {
+            "id": "b33aa8f2-e6e8-b622-58a1-d6c739a08747",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "maxHeight": "212px",
+                    "minHeight": "212px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "aab4a8be-e041-f25a-5159-97ac3209bf18"
+        },
+        {
+            "id": "6cc40a53-4bb5-64fa-ae8a-ca9331a4a551",
+            "type": "Text",
+            "props": {
+                "content": "Итерационный потенциал",
+                "size": "xs",
+                "className": "",
+                "baseProps": {},
+                "weight": "semibold"
+            },
+            "parentId": "82cfd4fa-4b0c-649c-c649-fe83cb0bcd25"
+        },
+        {
+            "id": "c91d4f61-5424-1c4f-42e8-2c5d1edd17d6",
+            "type": "Button",
+            "props": {
+                "size": "xs",
+                "action": "none",
+                "disabled": true,
+                "label": "Кнопка",
+                "view": "clear",
+                "form": "default",
+                "width": "default",
+                "className": "",
+                "baseProps": {},
+                "iconLeft": true,
+                "onlyIcon": true,
+                "icon": "IconRevert"
+            },
+            "parentId": "82cfd4fa-4b0c-649c-c649-fe83cb0bcd25"
+        },
+        {
+            "id": "82cfd4fa-4b0c-649c-c649-fe83cb0bcd25",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "space-between",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "   m-b-xs",
+                "baseProps": {
+                    "padding": {
+                        "paddingBottom": ""
+                    },
+                    "margin": {
+                        "marginBottom": "m-b-xs"
+                    }
+                }
+            },
+            "parentId": "f14fdd36-881b-362b-0fe3-60ea8a92dcbe"
+        },
+        {
+            "id": "1ac53313-1b30-a154-aaeb-81a19dde596c",
+            "type": "SelectForm",
+            "props": {
+                "content": "Text",
+                "size": "xs",
+                "view": "default",
+                "form": "default",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "placeholder": "Выберите цвет",
+                "className": "",
+                "baseProps": {},
+                "value": {
+                    "label": "Первый",
+                    "id": 1
+                },
+                "items": [
+                    {
+                        "label": "Первый",
+                        "id": 1
+                    },
+                    {
+                        "label": "Второй",
+                        "id": 2
+                    },
+                    {
+                        "label": "Третий",
+                        "id": 3
+                    }
+                ]
+            },
+            "parentId": "70d850ab-4087-ac09-265b-06d21730d07b"
+        },
+        {
+            "id": "70d850ab-4087-ac09-265b-06d21730d07b",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "maxHeight": "30px",
+                    "minHeight": "30px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "45b7c9ea-c011-9cb4-92e6-d2e83b9d596f"
+        },
+        {
+            "id": "9c854468-7c1a-1cde-850c-eac1abc38463",
+            "type": "Checkbox",
+            "props": {
+                "checked": false,
+                "size": "s",
+                "view": "primary",
+                "align": "center",
+                "disabled": false,
+                "label": "Измене.",
+                "className": "   m-r-xs",
+                "baseProps": {
+                    "margin": {
+                        "marginRight": "m-r-xs"
+                    }
+                },
+                "constaProps": {}
+            },
+            "parentId": "dd6c67ec-05c9-eda3-c2b9-7aca6f50e52a"
+        },
+        {
+            "id": "66c27d26-d46a-547b-de85-cf123dcd7c53",
+            "type": "TextField",
+            "props": {
+                "type": "text",
+                "width": "default",
+                "form": "defaultBrick",
+                "size": "xs",
+                "view": "default",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "maxLength": 200,
+                "placeholder": "Подсказка в поле",
+                "step": "1",
+                "min": "0",
+                "max": "200",
+                "className": "",
+                "baseProps": {},
+                "withClearButton": false,
+                "disabled": true
+            },
+            "parentId": "dd6c67ec-05c9-eda3-c2b9-7aca6f50e52a"
+        },
+        {
+            "id": "1a162feb-053c-f1ac-44e0-9cfce802becc",
+            "type": "SelectForm",
+            "props": {
+                "content": "Text",
+                "size": "xs",
+                "view": "default",
+                "form": "clearDefault",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "placeholder": "Выберите цвет",
+                "className": "",
+                "baseProps": {},
+                "value": {
+                    "label": "Первый",
+                    "id": 1
+                },
+                "items": [
+                    {
+                        "label": "Первый",
+                        "id": 1
+                    },
+                    {
+                        "label": "Второй",
+                        "id": 2
+                    },
+                    {
+                        "label": "Третий",
+                        "id": 3
+                    }
+                ],
+                "disabled": true
+            },
+            "parentId": "dd6c67ec-05c9-eda3-c2b9-7aca6f50e52a"
+        },
+        {
+            "id": "dd6c67ec-05c9-eda3-c2b9-7aca6f50e52a",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "6ee76b4c-9cba-98f0-4e72-b4d57dd6a77e"
+        },
+        {
+            "id": "b85c1dbb-8d9d-63e0-47cc-71fee358c03f",
+            "type": "Checkbox",
+            "props": {
+                "checked": false,
+                "size": "s",
+                "view": "primary",
+                "align": "center",
+                "disabled": false,
+                "label": "Измене.",
+                "className": "   m-r-xs",
+                "baseProps": {
+                    "margin": {
+                        "marginRight": "m-r-xs"
+                    }
+                },
+                "constaProps": {}
+            },
+            "parentId": "6521fd61-448b-af1b-7786-a9f096090470"
+        },
+        {
+            "id": "7aa39ea6-4f68-ec81-9632-4a5f021ee6ba",
+            "type": "TextField",
+            "props": {
+                "type": "text",
+                "width": "default",
+                "form": "defaultBrick",
+                "size": "xs",
+                "view": "default",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "maxLength": 200,
+                "placeholder": "Подсказка в поле",
+                "step": "1",
+                "min": "0",
+                "max": "200",
+                "className": "",
+                "baseProps": {},
+                "withClearButton": false,
+                "disabled": true
+            },
+            "parentId": "6521fd61-448b-af1b-7786-a9f096090470"
+        },
+        {
+            "id": "d3095167-963c-4db2-3bc5-ab488ea0043a",
+            "type": "SelectForm",
+            "props": {
+                "content": "Text",
+                "size": "xs",
+                "view": "default",
+                "form": "clearDefault",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "placeholder": "Выберите цвет",
+                "className": "",
+                "baseProps": {},
+                "value": {
+                    "label": "Первый",
+                    "id": 1
+                },
+                "items": [
+                    {
+                        "label": "Первый",
+                        "id": 1
+                    },
+                    {
+                        "label": "Второй",
+                        "id": 2
+                    },
+                    {
+                        "label": "Третий",
+                        "id": 3
+                    }
+                ],
+                "disabled": true
+            },
+            "parentId": "6521fd61-448b-af1b-7786-a9f096090470"
+        },
+        {
+            "id": "6521fd61-448b-af1b-7786-a9f096090470",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "6ee76b4c-9cba-98f0-4e72-b4d57dd6a77e"
+        },
+        {
+            "id": "a87bd6f9-009d-5c7b-c370-abe99f2060fc",
+            "type": "Checkbox",
+            "props": {
+                "checked": true,
+                "size": "s",
+                "view": "primary",
+                "align": "center",
+                "disabled": false,
+                "label": "Граница",
+                "className": "   m-r-xs",
+                "baseProps": {
+                    "margin": {
+                        "marginRight": "m-r-xs"
+                    }
+                },
+                "constaProps": {}
+            },
+            "parentId": "815936c7-8f8c-1c7a-4364-a96d57c1cb8d"
+        },
+        {
+            "id": "71bd0573-6aca-ad7f-ac67-643e9b09d382",
+            "type": "TextField",
+            "props": {
+                "type": "text",
+                "width": "default",
+                "form": "default",
+                "size": "xs",
+                "view": "default",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "maxLength": 200,
+                "placeholder": "Подсказка в поле",
+                "step": "1",
+                "min": "0",
+                "max": "200",
+                "className": "",
+                "baseProps": {},
+                "withClearButton": false
+            },
+            "parentId": "815936c7-8f8c-1c7a-4364-a96d57c1cb8d"
+        },
+        {
+            "id": "815936c7-8f8c-1c7a-4364-a96d57c1cb8d",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "6ee76b4c-9cba-98f0-4e72-b4d57dd6a77e"
+        },
+        {
+            "id": "669c33ee-119b-4d26-2315-59442703246c",
+            "type": "Checkbox",
+            "props": {
+                "checked": true,
+                "size": "s",
+                "view": "primary",
+                "align": "center",
+                "disabled": false,
+                "label": "Граница",
+                "className": "   m-r-xs",
+                "baseProps": {
+                    "margin": {
+                        "marginRight": "m-r-xs"
+                    }
+                },
+                "constaProps": {}
+            },
+            "parentId": "b9ca4271-3ab9-caeb-d1fd-48754a778569"
+        },
+        {
+            "id": "a303978a-0e6e-3205-4dfb-2eee1151dd44",
+            "type": "TextField",
+            "props": {
+                "type": "text",
+                "width": "default",
+                "form": "default",
+                "size": "xs",
+                "view": "default",
+                "caption": "",
+                "label": "",
+                "labelPosition": "top",
+                "maxLength": 200,
+                "placeholder": "Подсказка в поле",
+                "step": "1",
+                "min": "0",
+                "max": "200",
+                "className": "",
+                "baseProps": {},
+                "withClearButton": false
+            },
+            "parentId": "b9ca4271-3ab9-caeb-d1fd-48754a778569"
+        },
+        {
+            "id": "b9ca4271-3ab9-caeb-d1fd-48754a778569",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "center",
+                    "justifyContent": "start",
+                    "maxHeight": "32px",
+                    "minHeight": "32px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "6ee76b4c-9cba-98f0-4e72-b4d57dd6a77e"
+        },
+        {
+            "id": "6ee76b4c-9cba-98f0-4e72-b4d57dd6a77e",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "45b7c9ea-c011-9cb4-92e6-d2e83b9d596f"
+        },
+        {
+            "id": "45b7c9ea-c011-9cb4-92e6-d2e83b9d596f",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "f14fdd36-881b-362b-0fe3-60ea8a92dcbe"
+        },
+        {
+            "id": "f14fdd36-881b-362b-0fe3-60ea8a92dcbe",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "46faed91-431b-41aa-fc62-975b52b9e9b0"
+        },
+        {
+            "id": "46faed91-431b-41aa-fc62-975b52b9e9b0",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "row",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start",
+                    "maxHeight": "202px",
+                    "minHeight": "202px"
+                },
+                "className": "",
+                "baseProps": {}
+            },
+            "parentId": "aab4a8be-e041-f25a-5159-97ac3209bf18"
+        },
+        {
+            "id": "aab4a8be-e041-f25a-5159-97ac3209bf18",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "constaProps": {
+                    "flex": 1,
+                    "direction": "column",
+                    "horizontalAlign": "left",
+                    "verticalAlign": "top"
+                },
+                "styles": {
+                    "alignItems": "normal",
+                    "justifyContent": "start"
+                },
+                "className": "p-r-s p-l-s   p-t-xs",
+                "baseProps": {
+                    "padding": {
+                        "paddingRight": "p-r-s",
+                        "paddingLeft": "p-l-s",
+                        "paddingTop": "p-t-xs"
+                    }
+                }
+            },
+            "parentId": "2edcfdfa-34c7-b8b6-6276-044c500033c4"
+        }
+    ],
+    "description": "EARM_side_pane"
+}

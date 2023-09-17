@@ -6,28 +6,29 @@ import {
 } from "../../../coreTypes";
 import { isPropsTypeOf } from "../../../utils";
 
+const ActiveSide = ({
+  borderColor,
+  borderSide,
+  borderStyle,
+  borderWidth,
+}: LayoutElementStyles) => {
+  const sideCss = {
+    [`${borderSide}Width`]: borderWidth,
+    [`${borderSide}Style`]: borderStyle,
+    [`${borderSide}Color`]: borderColor,
+    borderWidth: "",
+    borderStyle: "",
+    borderColor: "",
+  };
+  return sideCss;
+};
+
 export const buildLayoutProps = (item: TreeItem, tabs: string) => {
   let propsString = "";
   if (
     isPropsTypeOf<LayoutElementPropsStyles>(item.type, item.props, "Layout")
   ) {
     const props = item.props;
-    const ActiveSide = ({
-      borderColor,
-      borderSide,
-      borderStyle,
-      borderWidth,
-    }: LayoutElementStyles) => {
-      const sideCss = {
-        [`${borderSide}Width`]: borderWidth,
-        [`${borderSide}Style`]: borderStyle,
-        [`${borderSide}Color`]: borderColor,
-        borderWidth: "",
-        borderStyle: "",
-        borderColor: "",
-      };
-      return sideCss;
-    };
     const constaProps = props.constaProps;
     let key: keyof LayoutElementProps;
     for (key in constaProps) {
@@ -41,16 +42,41 @@ export const buildLayoutProps = (item: TreeItem, tabs: string) => {
     }
     const styles = props.styles;
     if (styles) {
-      const style = {
-        ...styles,
-        ...(styles.borderSide && ActiveSide(styles)),
+      const objectStyle: any = {
         backgroundColor: styles?.backgroundColor
           ? `var(--${styles?.backgroundColor})`
           : undefined,
         overflow: "hidden",
         transition: "none",
       };
-      propsString += `\n${tabs}\tstyle={${JSON.stringify(style)}}`;
+      let key: keyof LayoutElementStyles;
+      for (key in styles) {
+        if (
+          key != "backgroundColor" &&
+          key != "borderSide" &&
+          key != "borderWidth" &&
+          key != "borderStyle" &&
+          key != "borderColor"
+        ) {
+          objectStyle[key] = styles[key];
+        }
+      }
+
+      if (styles.borderSide) {
+        const borderStyles = ActiveSide(styles);
+        for (let key in borderStyles) {
+          if (
+            key != "borderSide" &&
+            key != "borderWidth" &&
+            key != "borderStyle" &&
+            key != "borderColor"
+          ) {
+            objectStyle[key] = borderStyles[key];
+          }
+        }
+      }
+
+      propsString += `\n${tabs}\tstyle={${JSON.stringify(objectStyle)}}`;
     }
   }
 

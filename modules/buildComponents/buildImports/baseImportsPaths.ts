@@ -16,4 +16,6 @@ export const baseImports: Record<DependencyKeys, string> = {
   ComboBox: "import { Combobox } from '@consta/uikit/Combobox'",
   SelectForm: "import { Select } from '@consta/uikit/Select'",
   TextField: "import { TextField } from '@consta/uikit/TextField'",
+  Tabs: "import { Tabs } from '@consta/uikit/Tabs'",
+  DatePicker: "import { DatePicker } from '@consta/uikit/DatePicker'",
 };
