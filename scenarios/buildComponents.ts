@@ -4,8 +4,8 @@ import {
   buildParentChildrenMap,
   initStructure,
   getInputFiles,
-  templateList,
 } from "../modules";
+import { templateList } from "../modules/types";
 import { createFolder } from "../utils";
 
 export const buildComponents = (inputPath: string, outputPath: string) => {
