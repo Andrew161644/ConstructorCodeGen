@@ -14,6 +14,7 @@ import {
   TabsElementProps,
   DatePickerProps,
 } from "../constructorTypes";
+import { Values } from "../../utils";
 
 export type ComponentModule = {
   name: string;
@@ -31,22 +32,24 @@ export type TreeItem = {
 };
 
 // Чтобы имплементировать все
-// export type ComponentTypes = FormElementTypes | FormGroupsTypes;
-export type ComponentTypes =
-  | "Button"
-  | "Checkbox"
-  | "Layout"
-  | "Badge"
-  | "RadioButton"
-  | "Switch"
-  | "Text"
-  | "Card"
-  | "Informer"
-  | "ComboBox"
-  | "SelectForm"
-  | "TextField"
-  | "Tabs"
-  | "DatePicker";
+export const ComponentType = {
+  Button: "Button",
+  Checkbox: "Checkbox",
+  Layout: "Layout",
+  Badge: "Badge",
+  RadioButton: "RadioButton",
+  Switch: "Switch",
+  Text: "Text",
+  Card: "Card",
+  Informer: "Informer",
+  ComboBox: "ComboBox",
+  SelectForm: "SelectForm",
+  TextField: "TextField",
+  Tabs: "Tabs",
+  DatePicker: "DatePicker",
+} as const;
+
+export type ComponentTypes = Values<typeof ComponentType>;
 
 export type AllProps =
   | ButtonProps
