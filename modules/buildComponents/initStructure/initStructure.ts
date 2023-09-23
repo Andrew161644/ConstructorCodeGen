@@ -5,7 +5,7 @@ import { addFilesComponent } from "./addFilesComponent";
 import { createFolder } from "../../../utils";
 import { getItemName } from "./getComponentName";
 import { TEMPLATES_PATH } from "../../../paths";
-import { Template, Templates } from "../../types";
+import { Template, Templates } from "../../templateTypes";
 const fs = require("fs");
 
 export const initStructure = (

@@ -4,6 +4,7 @@ import {
   COMPONENT_TYPE,
   COMPONENT_NAME,
 } from "../../../templateConstants";
+import { TAB2, TAB4 } from "../../indention";
 import { buildChildComponent } from "../buildChildComponent";
 import { buildImports } from "../buildImports";
 import { buildElementProps } from "../buildProps";
@@ -43,22 +44,19 @@ const replaceContentLayout = (
   if (!chldrenItems.length) {
     content = content?.replaceAll(
       COMPONENT_TYPE,
-      `(\n\t\t<${getComponentName(element.type)} ${buildElementProps(
+      `(\n${TAB2}<${getComponentName(element.type)} ${buildElementProps(
         element,
-        "\t\t"
-      )}/>\n\t\t);`
+        `${TAB2}`
+      )}/>\n${TAB2});`
     );
   } else {
-    let componentCode = `(\n\t\t<${getComponentName(
+    let componentCode = `(\n${TAB2}<${getComponentName(
       element.type
-    )} ${buildElementProps(element, "\t\t")}>\n`;
+    )} ${buildElementProps(element, `${TAB2}`)}>\n`;
     chldrenItems.forEach((childItem) => {
-      componentCode += `\t\t\t\t${buildChildComponent(
-        childItem,
-        "\t\t\t\t"
-      )}\n`;
+      componentCode += `${TAB4}${buildChildComponent(childItem, `${TAB4}`)}\n`;
     });
-    componentCode += `\t\t</${getComponentName(element.type)}>\n\t);`;
+    componentCode += `${TAB2}</${getComponentName(element.type)}>\n\t);`;
     content = content?.replaceAll(COMPONENT_TYPE, `${componentCode}`);
   }
 
