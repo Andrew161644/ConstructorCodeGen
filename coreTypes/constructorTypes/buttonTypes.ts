@@ -1,40 +1,55 @@
-import { iconNames } from "./iconTypes";
-import { BaseProps, IFormElement, IGroupElement } from "./types";
-import { Props } from "@consta/uikit/Button";
+import { IconComponent } from '@consta/uikit/Icon'
+import { IconNames } from './iconTypes'
+import {
+  BaseProps,
+  BrandProps,
+  ConcreteSelectedElement,
+  FormElementDictTypes,
+  FormGroupsDictTypes,
+  IFormElement,
+  IGroupElement,
+} from './types'
+import { Props } from '@consta/uikit/Button'
 
 ///  | 'RightSidebar' | 'LeftSidebar'
-export type ButtonAction = "none" | "ButtonModal";
+export type ButtonAction = 'none' | 'ButtonModal'
 
-interface Filled {
-  filled: string;
+export interface ButtonProps extends BaseProps, Props {
+  action: ButtonAction
+  activeAction?: boolean
+  icon?: IconNames
+  iconR?: IconNames
+  filled?: boolean
 }
 
-export interface ButtonProps extends BaseProps, Props, Filled {
-  action: ButtonAction;
-  icon?: iconNames;
-  iconR?: iconNames;
-}
+export type BrandButtonProps = BrandProps<ButtonProps, 'Button'>
 
-export const buttonActions: ButtonAction[] = ["none", "ButtonModal"];
-export const buttonActionsActive = ["ButtonModal"];
+export type ButtonElement = ConcreteSelectedElement<typeof FormElementDictTypes.Button>
+
+export const buttonActions: ButtonAction[] = ['none', 'ButtonModal']
+export const buttonActionsActive = ['ButtonModal']
 
 export interface IFormElementButton extends IFormElement {
-  props: ButtonProps;
+  props: BrandButtonProps
 }
 
-export const defaultHeight = "400px";
-export const defaultWidth = "400px";
+export const defaultHeight = '400px'
+export const defaultWidth = '400px'
 
 export interface ButtonGroupProps extends BaseProps {
-  height: string;
-  width: string;
+  height: string
+  width: string
 }
 
+export type BrandButtonGroupProps = BrandProps<ButtonGroupProps, 'ButtonModal'>
+
+export type ButtonGroupElement = ConcreteSelectedElement<typeof FormGroupsDictTypes.ButtonModal>
+
 export interface IButtonActionElement extends IGroupElement {
-  connectedButtonId: string;
+  connectedButtonId: string
 }
 
 export interface IButtonModalElement extends IButtonActionElement {
-  id: string;
-  props: ButtonGroupProps;
+  id: string
+  props: BrandButtonGroupProps
 }

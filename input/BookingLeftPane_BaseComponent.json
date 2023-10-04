@@ -1,0 +1,1043 @@
+{
+    "id": "13016aa2-7bf0-4036-17d3-55fe61bc33a5",
+    "name": "BookingLeftPane",
+    "childrenElementList": [
+        {
+            "id": "7f289c4e-5e19-c3ac-4088-4800b73547d2",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "column",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderAll",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin"
+                    },
+                    "className": "   ",
+                    "baseProps": {
+                        "margin": {
+                            "marginRight": ""
+                        }
+                    }
+                },
+                "type": "Layout"
+            }
+        },
+        {
+            "id": "0d490482-ef69-797f-3f7a-6c39c4eb814c",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "Поиск",
+                    "size": "l",
+                    "className": "  ",
+                    "baseProps": {
+                        "padding": {
+                            "paddingBottom": ""
+                        }
+                    },
+                    "transformText": {},
+                    "weight": "bold"
+                },
+                "type": "Text"
+            },
+            "parentId": "38398e2c-5a41-82e5-243d-4902d323036d"
+        },
+        {
+            "id": "77c7afc1-a233-aec9-65f1-f2902e6916de",
+            "type": "TextField",
+            "props": {
+                "props": {
+                    "type": "text",
+                    "width": "default",
+                    "form": "default",
+                    "size": "xs",
+                    "view": "default",
+                    "caption": false,
+                    "label": "Место",
+                    "labelPosition": "top",
+                    "maxLength": 200,
+                    "placeholder": "Введите текст",
+                    "step": "1",
+                    "min": "0",
+                    "max": "200",
+                    "className": "",
+                    "baseProps": {},
+                    "filled": true
+                },
+                "type": "TextField"
+            },
+            "parentId": "59c177d1-9f66-bd6b-8928-ff1ec0f0138c"
+        },
+        {
+            "id": "59c177d1-9f66-bd6b-8928-ff1ec0f0138c",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "start",
+                        "borderSide": "borderAll",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "54px",
+                        "minHeight": "54px"
+                    },
+                    "className": "   m-b-xs",
+                    "baseProps": {
+                        "margin": {
+                            "marginBottom": "m-b-xs"
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "2cee95eb-2d90-ea8c-e205-2d615e675ad8"
+        },
+        {
+            "id": "f21d43f0-f2c1-57d7-1a7e-288244f43f15",
+            "type": "DatePicker",
+            "props": {
+                "props": {
+                    "type": "date",
+                    "form": "default",
+                    "label": "Дата заезда",
+                    "caption": false,
+                    "labelPosition": "top",
+                    "size": "xs",
+                    "view": "default",
+                    "dateTimeView": "classic",
+                    "dropdownForm": "default",
+                    "className": "",
+                    "baseProps": {},
+                    "withClearButton": true
+                },
+                "type": "DatePicker"
+            },
+            "parentId": "e5b03cfd-1303-cf99-9973-615e502eb886"
+        },
+        {
+            "id": "e5b03cfd-1303-cf99-9973-615e502eb886",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "54px",
+                        "minHeight": "54px"
+                    },
+                    "className": "   m-b-xs",
+                    "baseProps": {
+                        "margin": {
+                            "marginBottom": "m-b-xs"
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "2cee95eb-2d90-ea8c-e205-2d615e675ad8"
+        },
+        {
+            "id": "b332eb79-9192-c162-0167-cacde6b4a94f",
+            "type": "DatePicker",
+            "props": {
+                "props": {
+                    "type": "date",
+                    "form": "default",
+                    "label": "Дата отъезда",
+                    "caption": false,
+                    "labelPosition": "top",
+                    "size": "xs",
+                    "view": "default",
+                    "dateTimeView": "classic",
+                    "dropdownForm": "default",
+                    "className": "",
+                    "baseProps": {},
+                    "withClearButton": true
+                },
+                "type": "DatePicker"
+            },
+            "parentId": "f284c414-785e-7d91-d053-371f442367c0"
+        },
+        {
+            "id": "f284c414-785e-7d91-d053-371f442367c0",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "54px",
+                        "minHeight": "54px"
+                    },
+                    "className": "   m-b-xs",
+                    "baseProps": {
+                        "margin": {
+                            "marginBottom": "m-b-xs"
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "2cee95eb-2d90-ea8c-e205-2d615e675ad8"
+        },
+        {
+            "id": "871b8a77-b38a-7bf5-43a0-479bbd940b3e",
+            "type": "SelectForm",
+            "props": {
+                "props": {
+                    "content": "Text",
+                    "size": "xs",
+                    "view": "default",
+                    "form": "default",
+                    "caption": false,
+                    "label": "Гости",
+                    "labelPosition": "top",
+                    "placeholder": "Выберите цвет",
+                    "groups": [
+                        "Первая группа",
+                        "Вторая группа",
+                        "Третья группа"
+                    ],
+                    "className": "",
+                    "baseProps": {},
+                    "items": [
+                        {
+                            "label": "2 взрослых • без детей • 1 номер",
+                            "group": "Первая группа",
+                            "id": 1
+                        }
+                    ],
+                    "value": {
+                        "label": "2 взрослых • без детей • 1 номер",
+                        "group": "Первая группа",
+                        "id": 1
+                    }
+                },
+                "type": "SelectForm"
+            },
+            "parentId": "2485acef-bb7a-2414-0a2b-66af643dc3e8"
+        },
+        {
+            "id": "2485acef-bb7a-2414-0a2b-66af643dc3e8",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "54px",
+                        "minHeight": "54px"
+                    },
+                    "className": "   m-b-xs",
+                    "baseProps": {
+                        "padding": {
+                            "paddingBottom": ""
+                        },
+                        "margin": {
+                            "marginBottom": "m-b-xs"
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "2cee95eb-2d90-ea8c-e205-2d615e675ad8"
+        },
+        {
+            "id": "5cad6a32-b70c-a8b3-7159-392fae09459a",
+            "type": "Checkbox",
+            "props": {
+                "props": {
+                    "checked": false,
+                    "size": "s",
+                    "view": "primary",
+                    "align": "center",
+                    "disabled": false,
+                    "label": "Дома и апартаменты целиком",
+                    "className": "  p-b-xs",
+                    "baseProps": {
+                        "padding": {
+                            "paddingBottom": "p-b-xs"
+                        }
+                    }
+                },
+                "type": "Checkbox"
+            },
+            "parentId": "d9245420-172a-6001-1b80-205056825f95"
+        },
+        {
+            "id": "88f0e21f-8601-19d1-1418-2837a0722522",
+            "type": "Checkbox",
+            "props": {
+                "props": {
+                    "checked": false,
+                    "size": "s",
+                    "view": "primary",
+                    "align": "center",
+                    "disabled": false,
+                    "label": "Я путешествую по работе",
+                    "className": "  p-b-xs",
+                    "baseProps": {
+                        "padding": {
+                            "paddingBottom": "p-b-xs"
+                        }
+                    }
+                },
+                "type": "Checkbox"
+            },
+            "parentId": "d9245420-172a-6001-1b80-205056825f95"
+        },
+        {
+            "id": "d9245420-172a-6001-1b80-205056825f95",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "column",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "start",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "2cee95eb-2d90-ea8c-e205-2d615e675ad8"
+        },
+        {
+            "id": "2cee95eb-2d90-ea8c-e205-2d615e675ad8",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "column",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin"
+                    },
+                    "className": "  m-b-s   m-t-s",
+                    "baseProps": {
+                        "padding": {
+                            "paddingBottom": "",
+                            "paddingTop": ""
+                        },
+                        "margin": {
+                            "marginBottom": "m-b-s",
+                            "marginTop": "m-t-s"
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "38398e2c-5a41-82e5-243d-4902d323036d"
+        },
+        {
+            "id": "06cdff16-48c1-6576-8a0f-b66c18ba0364",
+            "type": "Button",
+            "props": {
+                "props": {
+                    "size": "s",
+                    "action": "none",
+                    "disabled": false,
+                    "label": "Найти",
+                    "view": "primary",
+                    "form": "default",
+                    "width": "default",
+                    "className": "",
+                    "baseProps": {},
+                    "filled": true
+                },
+                "type": "Button"
+            },
+            "parentId": "82d702f8-681b-be04-218e-73cd93c54670"
+        },
+        {
+            "id": "82d702f8-681b-be04-218e-73cd93c54670",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "start",
+                        "borderSide": "borderAll",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "32px",
+                        "minHeight": "32px"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "38398e2c-5a41-82e5-243d-4902d323036d"
+        },
+        {
+            "id": "38398e2c-5a41-82e5-243d-4902d323036d",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "column",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "64dc6001-071d-2cd4-0f3e-0dff46c65bab"
+        },
+        {
+            "id": "64dc6001-071d-2cd4-0f3e-0dff46c65bab",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderAll",
+                        "borderStyle": "solid",
+                        "borderWidth": "thin",
+                        "borderColor": "color-bg-border"
+                    },
+                    "className": "p-l-xs p-r-xs p-t-xs   p-b-xs",
+                    "baseProps": {
+                        "padding": {
+                            "paddingLeft": "p-l-xs",
+                            "paddingRight": "p-r-xs",
+                            "paddingTop": "p-t-xs",
+                            "paddingBottom": "p-b-xs"
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "73305282-ec1e-4c8e-86cd-53cd31828a0b"
+        },
+        {
+            "id": "73305282-ec1e-4c8e-86cd-53cd31828a0b",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "solid",
+                        "borderWidth": "thin",
+                        "borderColor": "color-bg-border",
+                        "maxHeight": "450px",
+                        "minHeight": "450px"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "7f289c4e-5e19-c3ac-4088-4800b73547d2"
+        },
+        {
+            "id": "aa4d24c5-a5b1-af67-c2bb-4657a8113220",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "Выбрать по критериям:",
+                    "size": "l",
+                    "className": "   m-b-m",
+                    "baseProps": {
+                        "margin": {
+                            "marginBottom": "m-b-m"
+                        }
+                    },
+                    "transformText": {},
+                    "weight": "bold",
+                    "view": "ghost"
+                },
+                "type": "Text"
+            },
+            "parentId": "ddf2dc60-0fe9-5d60-3b91-ab7889ee5eab"
+        },
+        {
+            "id": "286ea69e-676b-ae88-45f4-2fc662995da6",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "Ваш бюджет за ночь",
+                    "size": "m",
+                    "className": "   m-b-xs",
+                    "baseProps": {
+                        "margin": {
+                            "marginBottom": "m-b-xs"
+                        }
+                    },
+                    "transformText": {},
+                    "weight": "bold"
+                },
+                "type": "Text"
+            },
+            "parentId": "ddf2dc60-0fe9-5d60-3b91-ab7889ee5eab"
+        },
+        {
+            "id": "e422b9d4-8d32-5520-d4f5-3d720793c7b1",
+            "type": "Switch",
+            "props": {
+                "props": {
+                    "size": "m",
+                    "view": "primary",
+                    "align": "center",
+                    "label": "Установить свой бюджет",
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Switch"
+            },
+            "parentId": "ddf2dc60-0fe9-5d60-3b91-ab7889ee5eab"
+        },
+        {
+            "id": "057233a1-7afd-2602-bfbe-ceda9b617acb",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "Популярные фильтры",
+                    "size": "m",
+                    "className": " m-b-xs   m-t-m",
+                    "baseProps": {
+                        "margin": {
+                            "marginBottom": "m-b-xs",
+                            "marginTop": "m-t-m"
+                        }
+                    },
+                    "transformText": {},
+                    "weight": "bold"
+                },
+                "type": "Text"
+            },
+            "parentId": "3633ab69-d4e5-9fb6-ce4f-89b92c4759c8"
+        },
+        {
+            "id": "aedc3318-ad83-2fc8-d8ea-b9d76fd390a8",
+            "type": "Checkbox",
+            "props": {
+                "props": {
+                    "checked": false,
+                    "size": "s",
+                    "view": "primary",
+                    "align": "center",
+                    "disabled": false,
+                    "label": "Отели",
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Checkbox"
+            },
+            "parentId": "74d7a694-70a2-08fb-1d0c-b05faac76c61"
+        },
+        {
+            "id": "f70d910b-32df-cbc8-ef93-228e812795b3",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "20",
+                    "size": "s",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "view": "secondary"
+                },
+                "type": "Text"
+            },
+            "parentId": "74d7a694-70a2-08fb-1d0c-b05faac76c61"
+        },
+        {
+            "id": "74d7a694-70a2-08fb-1d0c-b05faac76c61",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "24px",
+                        "minHeight": "24px"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "3633ab69-d4e5-9fb6-ce4f-89b92c4759c8"
+        },
+        {
+            "id": "b88bbad0-bae0-2232-52a4-8d62237d4f30",
+            "type": "Checkbox",
+            "props": {
+                "props": {
+                    "checked": false,
+                    "size": "s",
+                    "view": "primary",
+                    "align": "center",
+                    "disabled": false,
+                    "label": "Завтрак включен",
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Checkbox"
+            },
+            "parentId": "425f52d6-b2d5-a31f-3bd6-68798b816ba4"
+        },
+        {
+            "id": "b923c948-ba4b-3c35-3b2e-fa793c68cfc8",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "2",
+                    "size": "s",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "view": "secondary"
+                },
+                "type": "Text"
+            },
+            "parentId": "425f52d6-b2d5-a31f-3bd6-68798b816ba4"
+        },
+        {
+            "id": "425f52d6-b2d5-a31f-3bd6-68798b816ba4",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "24px",
+                        "minHeight": "24px"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "3633ab69-d4e5-9fb6-ce4f-89b92c4759c8"
+        },
+        {
+            "id": "5dfa73cf-78cb-2ce2-1e5e-db405932900d",
+            "type": "Checkbox",
+            "props": {
+                "props": {
+                    "checked": false,
+                    "size": "s",
+                    "view": "primary",
+                    "align": "center",
+                    "disabled": false,
+                    "label": "Спа и оздоровительный центр",
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Checkbox"
+            },
+            "parentId": "01e080bb-7d82-61e6-c3c0-e0ad3f6f3518"
+        },
+        {
+            "id": "b158c9cb-2690-e28f-294b-4c8ad01b39b3",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "20",
+                    "size": "s",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "view": "secondary"
+                },
+                "type": "Text"
+            },
+            "parentId": "01e080bb-7d82-61e6-c3c0-e0ad3f6f3518"
+        },
+        {
+            "id": "01e080bb-7d82-61e6-c3c0-e0ad3f6f3518",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "24px",
+                        "minHeight": "24px"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "3633ab69-d4e5-9fb6-ce4f-89b92c4759c8"
+        },
+        {
+            "id": "ad92676a-d8dc-3ca6-c901-262195f99163",
+            "type": "Checkbox",
+            "props": {
+                "props": {
+                    "checked": false,
+                    "size": "s",
+                    "view": "primary",
+                    "align": "center",
+                    "disabled": false,
+                    "label": "Превосходно: 9+",
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Checkbox"
+            },
+            "parentId": "decf5983-c78b-025d-215c-ddefee0fa4d7"
+        },
+        {
+            "id": "b12de919-5944-2c8b-49c7-5ce37562022b",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "20",
+                    "size": "s",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "view": "secondary"
+                },
+                "type": "Text"
+            },
+            "parentId": "decf5983-c78b-025d-215c-ddefee0fa4d7"
+        },
+        {
+            "id": "decf5983-c78b-025d-215c-ddefee0fa4d7",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "24px",
+                        "minHeight": "24px"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "3633ab69-d4e5-9fb6-ce4f-89b92c4759c8"
+        },
+        {
+            "id": "6cb908c9-7d4e-1fe4-be47-a64cfa3ae062",
+            "type": "Checkbox",
+            "props": {
+                "props": {
+                    "checked": false,
+                    "size": "s",
+                    "view": "primary",
+                    "align": "center",
+                    "disabled": false,
+                    "label": "Меньше 1 км от центра",
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Checkbox"
+            },
+            "parentId": "9ed270cf-1491-52d8-94f8-daeec81f47dc"
+        },
+        {
+            "id": "9e28412b-3c54-74e2-64c6-3a44dbd15a27",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "20",
+                    "size": "s",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "view": "secondary"
+                },
+                "type": "Text"
+            },
+            "parentId": "9ed270cf-1491-52d8-94f8-daeec81f47dc"
+        },
+        {
+            "id": "9ed270cf-1491-52d8-94f8-daeec81f47dc",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "24px",
+                        "minHeight": "24px"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "3633ab69-d4e5-9fb6-ce4f-89b92c4759c8"
+        },
+        {
+            "id": "3ad7b418-877e-8aa9-b1e1-8f565a68e95b",
+            "type": "Checkbox",
+            "props": {
+                "props": {
+                    "checked": false,
+                    "size": "s",
+                    "view": "primary",
+                    "align": "center",
+                    "disabled": false,
+                    "label": "Можно с питомцами",
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Checkbox"
+            },
+            "parentId": "a4dc350d-7b4d-5169-47c5-b531d1dc6a01"
+        },
+        {
+            "id": "0e840f75-ddea-749e-fce4-07b50b49df83",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "20",
+                    "size": "s",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "view": "secondary"
+                },
+                "type": "Text"
+            },
+            "parentId": "a4dc350d-7b4d-5169-47c5-b531d1dc6a01"
+        },
+        {
+            "id": "a4dc350d-7b4d-5169-47c5-b531d1dc6a01",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "24px",
+                        "minHeight": "24px"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "3633ab69-d4e5-9fb6-ce4f-89b92c4759c8"
+        },
+        {
+            "id": "3633ab69-d4e5-9fb6-ce4f-89b92c4759c8",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "column",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin"
+                    },
+                    "className": " m-b-m   m-t-m",
+                    "baseProps": {
+                        "margin": {
+                            "marginBottom": "m-b-m",
+                            "marginTop": "m-t-m"
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "ddf2dc60-0fe9-5d60-3b91-ab7889ee5eab"
+        },
+        {
+            "id": "ddf2dc60-0fe9-5d60-3b91-ab7889ee5eab",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "column",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "7f289c4e-5e19-c3ac-4088-4800b73547d2"
+        }
+    ],
+    "description": "BookingLeftPane"
+}

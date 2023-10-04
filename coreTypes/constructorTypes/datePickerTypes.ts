@@ -1,4 +1,10 @@
-import { BaseProps, IFormElement } from './types'
+import {
+  BaseProps,
+  BrandProps,
+  ConcreteSelectedElement,
+  FormElementDictTypes,
+  IFormElement,
+} from './types'
 import { TextFieldPropsTextareaType } from '@consta/uikit/TextField/'
 import {
   DatePickerPropDateTimeView,
@@ -25,9 +31,15 @@ export type DatePickerProps = {
   maxDate?: Date
   dateTimeView?: DatePickerPropDateTimeView
   dropdownForm?: DatePickerPropDropdownForm
+  events: Date[]
+  value?: Date
 } & BaseProps &
   TextFieldPropsTextareaType<string>
 
+export type BrandDatePickerProps = BrandProps<DatePickerProps, 'DatePicker'>
+
+export type DatePickerElement = ConcreteSelectedElement<typeof FormElementDictTypes.DatePicker>
+
 export interface IFormElementDatePicker extends IFormElement {
-  props: DatePickerProps
+  props: BrandDatePickerProps
 }

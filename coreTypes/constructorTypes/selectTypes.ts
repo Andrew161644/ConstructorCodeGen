@@ -1,9 +1,16 @@
-import { BaseProps, IFormElement } from './types'
+import {
+  BaseProps,
+  BrandProps,
+  ConcreteSelectedElement,
+  FormElementDictTypes,
+  IFormElement,
+} from './types'
 import { TextFieldPropSize, TextFieldPropView, TextFieldPropStatus } from '@consta/uikit/TextField'
 
 export type selectitemType = {
   id: number
   label: string
+  group?: string
 }
 
 export type PropForm =
@@ -36,10 +43,17 @@ export type SelectProps = {
   labelPosition?: 'top' | 'left'
   placeholder?: string
   isLoading?: boolean
+  dropdownForm?: 'brick' | 'default' | 'round'
+  groups: string[]
+  groupsActive?: boolean
   onChange: () => void
 } & BaseProps &
   TextContent
 
+export type BrandSelectProps = BrandProps<SelectProps, 'SelectForm'>
+
+export type SelectElement = ConcreteSelectedElement<typeof FormElementDictTypes.Select>
+
 export interface IFormElementSelect extends IFormElement {
-  props: SelectProps
+  props: BrandSelectProps
 }

@@ -16,6 +16,7 @@ export const componentNames: Record<ComponentTypes, string> = {
   TextField: "TextField",
   Tabs: "Tabs",
   DatePicker: "DatePicker",
+  Tag: 'Tag'
 };
 
 export const getComponentName = (componentType: ComponentTypes) => {

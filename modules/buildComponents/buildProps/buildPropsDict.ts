@@ -11,6 +11,7 @@ import { buildRadioButtonProps } from "./buildRadioButtonProps";
 import { buildSelectProps } from "./buildSelectProps";
 import { buildSwitchProps } from "./buildSwitchProps";
 import { buildTabsProps } from "./buildTabsProps";
+import { buildTagProps } from "./buildTagProps";
 import { buildTextFieldProps } from "./buildTextFieldProps";
 import { buildTextProps } from "./buildTextProps";
 
@@ -32,4 +33,5 @@ export const buildPropsDict: Record<
   TextField: buildTextFieldProps,
   Tabs: buildTabsProps,
   DatePicker: buildDatePickerProps,
+  Tag: buildTagProps
 };

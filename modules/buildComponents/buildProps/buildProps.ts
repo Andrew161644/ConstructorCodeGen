@@ -7,9 +7,14 @@ export const buildFormElementProps = (item: TreeItem, tabs: string) => {
   if (isGroupElement(item)) {
     return "";
   }
-  return buildPropsDict[item.type](item, tabs);
+  return buildElementProps(item, tabs);
 };
 
 export const buildElementProps = (item: TreeItem, tabs: string) => {
-  return buildPropsDict[item.type](item, tabs);
+  const buildFunc = buildPropsDict[item.type];
+  if (buildFunc) {
+    return buildFunc(item, tabs)
+  } else {
+    throw `No build func for type = ${item.type}`
+  }
 };

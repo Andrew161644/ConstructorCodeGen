@@ -1,7 +1,7 @@
 import { ComponentTypes, TreeItem } from "../../../coreTypes";
 import { isGroupElement } from "../../../utils";
 import { getItemName } from "../initStructure";
-import { baseImports } from "./baseImportsPaths";
+import { getImport } from "./baseImportsPaths";
 
 export const buildImports = (
   itemType: ComponentTypes,
@@ -18,11 +18,11 @@ export const buildImports = (
   const improted: Set<string> = new Set();
 
   let imports: string = "import React from 'react'\n";
-  imports += baseImports[itemType] + "\n";
+  imports += getImport(itemType) + "\n";
 
   dependencyConstaItems.forEach((dep) => {
     if (!improted.has(dep)) {
-      imports += `${baseImports[dep]}\n`;
+      imports += `${getImport(dep)}\n`;
       improted.add(dep);
     }
   });
