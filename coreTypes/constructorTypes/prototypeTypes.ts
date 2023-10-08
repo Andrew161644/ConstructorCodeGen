@@ -1,5 +1,11 @@
 import { BaseTypes } from './basePropsTypes'
-import { BaseProps } from './types'
+import {
+  BaseProps,
+  BrandProps,
+  ConcreteSelectedElement,
+  FormElementDictTypes,
+  IFormElement,
+} from './types'
 
 export type PrototypePropsType = {
   top: number
@@ -34,4 +40,23 @@ export class PrototypeProps {
       this.text = options.text
     }
   }
+}
+
+export type BrandPrototypeRectangleProps = BrandProps<
+  PrototypePropsType,
+  'PrototypeRectangleElement'
+>
+
+export type BrandPrototypeTextProps = BrandProps<PrototypePropsType, 'PrototypeTextElement'>
+
+export type PrototypeRectangleElement = ConcreteSelectedElement<
+  typeof FormElementDictTypes.PrototypeRectangleElement
+>
+
+export type PrototypeTextElement = ConcreteSelectedElement<
+  typeof FormElementDictTypes.PrototypeTextElement
+>
+
+export interface IFormElementPrototype extends IFormElement {
+  props: PrototypeProps
 }

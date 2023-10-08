@@ -13,6 +13,8 @@ import {
   TextFieldProps,
   TabsElementProps,
   DatePickerProps,
+  TagProps,
+  TextElementProps,
 } from "../constructorTypes";
 import { Values } from "../../utils";
 
@@ -47,6 +49,7 @@ export const ComponentType = {
   TextField: "TextField",
   Tabs: "Tabs",
   DatePicker: "DatePicker",
+  Tag: 'Tag'
 } as const;
 
 export type ComponentTypes = Values<typeof ComponentType>;
@@ -63,6 +66,8 @@ export type AllProps =
   | InformerElementProps
   | ComboboxProps
   | SelectProps
+  | TextElementProps
   | TextFieldProps
   | TabsElementProps
-  | DatePickerProps;
+  | DatePickerProps
+  | TagProps;

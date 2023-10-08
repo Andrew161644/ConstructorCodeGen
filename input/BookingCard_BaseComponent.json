@@ -1,0 +1,894 @@
+{
+    "id": "9264eea2-7b54-d1d5-7580-87b0f1fff9f7",
+    "name": "BookingCard",
+    "childrenElementList": [
+        {
+            "id": "62c1f119-16d1-9cf5-c3d6-3b5b39e87daf",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderAll",
+                        "borderStyle": "solid",
+                        "borderWidth": "thin",
+                        "maxHeight": "310px",
+                        "minHeight": "310px",
+                        "borderColor": "color-bg-border",
+                        "backgroundColor": "color-bg-secondary"
+                    },
+                    "className": "   m-b-s",
+                    "baseProps": {
+                        "margin": {
+                            "marginBottom": "m-b-s"
+                        }
+                    }
+                },
+                "type": "Layout"
+            }
+        },
+        {
+            "id": "ffae0f02-3665-51d0-1a8f-7a5033673ada",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderAll",
+                        "borderStyle": "dotted",
+                        "borderWidth": "thin",
+                        "borderColor": "color-bg-border",
+                        "backgroundColor": "color-bg-stripe",
+                        "maxWidth": "300px",
+                        "minWidth": "300px"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "e31f50ae-c7e4-ad31-0ff2-1db9df4a7700"
+        },
+        {
+            "id": "b6eac9dd-e2ff-a0b6-8f78-2af9762a0d23",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "Pskov City Apartment — Петровская ул, 12",
+                    "size": "l",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "weight": "bold",
+                    "view": "link"
+                },
+                "type": "Text"
+            },
+            "parentId": "d5bdb30a-4d61-5f49-b6ed-c3f02def582b"
+        },
+        {
+            "id": "4fcace7f-4995-9a82-b429-0aef029933f6",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "Потрясающе",
+                    "size": "xs",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "weight": "semibold",
+                    "align": {
+                        "name": "right",
+                        "icon": {}
+                    }
+                },
+                "type": "Text"
+            },
+            "parentId": "f84fe048-5e62-39d7-9194-24b79170838e"
+        },
+        {
+            "id": "1ed220bf-5211-3321-44e7-a6ceca717075",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "515 отзывов",
+                    "size": "xs",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "view": "secondary",
+                    "align": {
+                        "name": "right",
+                        "icon": {}
+                    },
+                    "weight": "regular"
+                },
+                "type": "Text"
+            },
+            "parentId": "f84fe048-5e62-39d7-9194-24b79170838e"
+        },
+        {
+            "id": "f84fe048-5e62-39d7-9194-24b79170838e",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "column",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "start",
+                        "justifyContent": "end",
+                        "borderSide": "borderAll",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxWidth": "90px",
+                        "minWidth": "90px"
+                    },
+                    "className": "   ",
+                    "baseProps": {
+                        "padding": {
+                            "paddingRight": ""
+                        },
+                        "margin": {
+                            "marginRight": ""
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "4f11e46f-8251-bac0-7784-a8d21b0f999c"
+        },
+        {
+            "id": "09acab3a-2061-9fdc-592c-fbab6b235947",
+            "type": "Badge",
+            "props": {
+                "props": {
+                    "label": "8,8",
+                    "form": "default",
+                    "size": "l",
+                    "status": "success",
+                    "view": "filled",
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Badge"
+            },
+            "parentId": "4f11e46f-8251-bac0-7784-a8d21b0f999c"
+        },
+        {
+            "id": "4f11e46f-8251-bac0-7784-a8d21b0f999c",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "end",
+                        "borderSide": "borderAll",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxWidth": "150px",
+                        "minWidth": "150px"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "d5bdb30a-4d61-5f49-b6ed-c3f02def582b"
+        },
+        {
+            "id": "d5bdb30a-4d61-5f49-b6ed-c3f02def582b",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "space-between",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "40px",
+                        "minHeight": "40px"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "9af82a03-692e-3d97-8023-9e3c8710b739"
+        },
+        {
+            "id": "31a678c4-602f-0730-1444-ad646e92f15f",
+            "type": "Button",
+            "props": {
+                "props": {
+                    "size": "xs",
+                    "action": "none",
+                    "disabled": false,
+                    "label": "Кнопка",
+                    "view": "clear",
+                    "form": "default",
+                    "width": "default",
+                    "className": "   m-r-xs",
+                    "baseProps": {
+                        "margin": {
+                            "marginRight": "m-r-xs"
+                        }
+                    },
+                    "onlyIcon": true,
+                    "icon": "IconCheck"
+                },
+                "type": "Button"
+            },
+            "parentId": "22e12ae1-a7b0-9040-09d1-3880a5e3b06b"
+        },
+        {
+            "id": "5dbb85c0-385a-ce27-7cbd-f6e5e77d8bf8",
+            "type": "Button",
+            "props": {
+                "props": {
+                    "size": "xs",
+                    "action": "none",
+                    "disabled": false,
+                    "label": "Кнопка",
+                    "view": "clear",
+                    "form": "default",
+                    "width": "default",
+                    "className": "   m-r-xs",
+                    "baseProps": {
+                        "margin": {
+                            "marginRight": "m-r-xs"
+                        }
+                    },
+                    "onlyIcon": true,
+                    "activeAction": false,
+                    "icon": "IconCheck"
+                },
+                "type": "Button"
+            },
+            "parentId": "22e12ae1-a7b0-9040-09d1-3880a5e3b06b"
+        },
+        {
+            "id": "6fef34c6-1013-1cc9-28b2-37a4630919a2",
+            "type": "Button",
+            "props": {
+                "props": {
+                    "size": "xs",
+                    "action": "none",
+                    "disabled": false,
+                    "label": "Кнопка",
+                    "view": "clear",
+                    "form": "default",
+                    "width": "default",
+                    "className": "   m-r-xs",
+                    "baseProps": {
+                        "margin": {
+                            "marginRight": "m-r-xs"
+                        }
+                    },
+                    "onlyIcon": true,
+                    "icon": "IconCheck"
+                },
+                "type": "Button"
+            },
+            "parentId": "22e12ae1-a7b0-9040-09d1-3880a5e3b06b"
+        },
+        {
+            "id": "222737fa-b205-4bbc-01d4-2597addc7a34",
+            "type": "Button",
+            "props": {
+                "props": {
+                    "size": "xs",
+                    "action": "none",
+                    "disabled": false,
+                    "label": "Кнопка",
+                    "view": "clear",
+                    "form": "default",
+                    "width": "default",
+                    "className": "   m-r-xs",
+                    "baseProps": {
+                        "margin": {
+                            "marginRight": "m-r-xs"
+                        }
+                    },
+                    "onlyIcon": true,
+                    "icon": "IconCheck"
+                },
+                "type": "Button"
+            },
+            "parentId": "22e12ae1-a7b0-9040-09d1-3880a5e3b06b"
+        },
+        {
+            "id": "ea243861-e907-5cf1-f8b8-d78f2aaf2727",
+            "type": "Tag",
+            "props": {
+                "props": {
+                    "size": "s",
+                    "label": "Промо",
+                    "mode": "check",
+                    "checked": false,
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Tag"
+            },
+            "parentId": "22e12ae1-a7b0-9040-09d1-3880a5e3b06b"
+        },
+        {
+            "id": "22e12ae1-a7b0-9040-09d1-3880a5e3b06b",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "start",
+                        "borderSide": "borderAll",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "24px",
+                        "minHeight": "24px"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "9af82a03-692e-3d97-8023-9e3c8710b739"
+        },
+        {
+            "id": "0a5281f6-6b9b-312f-0626-cdebd96aa749",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "Псков",
+                    "size": "s",
+                    "className": "   m-r-m",
+                    "baseProps": {
+                        "margin": {
+                            "marginRight": "m-r-m"
+                        }
+                    },
+                    "transformText": {},
+                    "view": "link",
+                    "font": "primary",
+                    "cursor": "pointer",
+                    "truncate": false,
+                    "decoration": "underline",
+                    "weight": "bold"
+                },
+                "type": "Text"
+            },
+            "parentId": "2e1ba425-486e-eb7b-14c9-3293cbb89345"
+        },
+        {
+            "id": "d654839c-a15f-0528-3798-b1c384b91a1f",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "Показать на карте",
+                    "size": "s",
+                    "className": "   m-r-m",
+                    "baseProps": {
+                        "margin": {
+                            "marginRight": "m-r-m"
+                        }
+                    },
+                    "transformText": {},
+                    "weight": "bold",
+                    "view": "link",
+                    "decoration": "underline",
+                    "cursor": "pointer"
+                },
+                "type": "Text"
+            },
+            "parentId": "2e1ba425-486e-eb7b-14c9-3293cbb89345"
+        },
+        {
+            "id": "84e26e32-f161-ab0d-c4e6-d9113124f34d",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "0,8 км от центра",
+                    "size": "s",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "weight": "regular",
+                    "view": "secondary"
+                },
+                "type": "Text"
+            },
+            "parentId": "2e1ba425-486e-eb7b-14c9-3293cbb89345"
+        },
+        {
+            "id": "2e1ba425-486e-eb7b-14c9-3293cbb89345",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "center",
+                        "justifyContent": "start",
+                        "borderSide": "borderAll",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "24px",
+                        "minHeight": "24px"
+                    },
+                    "className": "  m-t-s m-b-s ",
+                    "baseProps": {
+                        "margin": {
+                            "marginTop": "m-t-s",
+                            "marginBottom": "m-b-s"
+                        },
+                        "padding": {
+                            "paddingLeft": "",
+                            "paddingTop": ""
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "9af82a03-692e-3d97-8023-9e3c8710b739"
+        },
+        {
+            "id": "69bff3d2-cbdf-97c9-62a3-8fda87e85b05",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "Апартаменты Делюкс",
+                    "size": "s",
+                    "className": "  ",
+                    "baseProps": {
+                        "padding": {
+                            "paddingLeft": ""
+                        }
+                    },
+                    "transformText": {},
+                    "weight": "bold"
+                },
+                "type": "Text"
+            },
+            "parentId": "7d646063-7e53-1325-2c4e-062ff29f54ce"
+        },
+        {
+            "id": "da805084-2c24-0b14-3ea5-25d2f2b36f5e",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxWidth": "2px",
+                        "minWidth": "2px",
+                        "backgroundColor": "color-bg-ghost"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "1ec51894-6ee6-beb7-7d58-99c3dce5c3ca"
+        },
+        {
+            "id": "0d0eaf0b-322d-1b74-796e-f7926e0436a8",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "1 апартаменты целиком • 1 спальня • 1 ванная комната • 36m²",
+                    "size": "s",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "weight": "regular",
+                    "view": "secondary"
+                },
+                "type": "Text"
+            },
+            "parentId": "c0d00c42-a6a8-b5fa-1160-df5d8a176b4e"
+        },
+        {
+            "id": "26233221-5649-ff8c-a1b5-fa151dfcdf18",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "2 кровати (1 диван-кровать, 1 широкая двуспальная)",
+                    "size": "s",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "weight": "regular",
+                    "view": "secondary"
+                },
+                "type": "Text"
+            },
+            "parentId": "c0d00c42-a6a8-b5fa-1160-df5d8a176b4e"
+        },
+        {
+            "id": "012e6049-1251-1397-f681-52c3f4697a24",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "БЕСПЛАТНАЯ отмена бронирования • Без предоплаты",
+                    "size": "s",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "view": "success",
+                    "weight": "semibold"
+                },
+                "type": "Text"
+            },
+            "parentId": "c0d00c42-a6a8-b5fa-1160-df5d8a176b4e"
+        },
+        {
+            "id": "019af098-3199-f5f3-60c5-5c9f256f2d36",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "Вы сможете отменить позже, поэтому успейте забронировать сегодня по этой цене.",
+                    "size": "s",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "view": "primary"
+                },
+                "type": "Text"
+            },
+            "parentId": "c0d00c42-a6a8-b5fa-1160-df5d8a176b4e"
+        },
+        {
+            "id": "7e2dee5c-7fda-d680-2c3b-b301817c73bb",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "Остался всего 1 вариант по этой цене",
+                    "size": "s",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "weight": "semibold",
+                    "view": "warning"
+                },
+                "type": "Text"
+            },
+            "parentId": "c0d00c42-a6a8-b5fa-1160-df5d8a176b4e"
+        },
+        {
+            "id": "c0d00c42-a6a8-b5fa-1160-df5d8a176b4e",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "column",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin"
+                    },
+                    "className": "  m-l-xs",
+                    "baseProps": {
+                        "margin": {
+                            "marginLeft": "m-l-xs"
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "1ec51894-6ee6-beb7-7d58-99c3dce5c3ca"
+        },
+        {
+            "id": "55f2aee9-029d-395c-7a25-437f79105520",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "2 ночи, 2 взрослых",
+                    "size": "xs",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "view": "secondary"
+                },
+                "type": "Text"
+            },
+            "parentId": "39420620-bb39-e0c8-5d63-f0ef1834ef7e"
+        },
+        {
+            "id": "44662b8a-9f8f-0964-265f-408865173021",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "12 454,45 ₽",
+                    "size": "xl",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "weight": "bold"
+                },
+                "type": "Text"
+            },
+            "parentId": "39420620-bb39-e0c8-5d63-f0ef1834ef7e"
+        },
+        {
+            "id": "9a412b42-2f78-75cf-7aa7-c014252d0f0b",
+            "type": "Text",
+            "props": {
+                "props": {
+                    "content": "Включая налоги и сборы",
+                    "size": "2xs",
+                    "className": "",
+                    "baseProps": {},
+                    "transformText": {},
+                    "view": "secondary"
+                },
+                "type": "Text"
+            },
+            "parentId": "39420620-bb39-e0c8-5d63-f0ef1834ef7e"
+        },
+        {
+            "id": "39420620-bb39-e0c8-5d63-f0ef1834ef7e",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "column",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "end",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "maxHeight": "68px",
+                        "minHeight": "68px"
+                    },
+                    "className": "    m-b-xs",
+                    "baseProps": {
+                        "margin": {
+                            "marginLeft": "",
+                            "marginBottom": "m-b-xs"
+                        },
+                        "padding": {
+                            "paddingBottom": ""
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "6914adde-6585-b25e-bd6d-3b5165997c8b"
+        },
+        {
+            "id": "50f04bf8-4b4f-1132-3a11-f67db3be35e9",
+            "type": "Button",
+            "props": {
+                "props": {
+                    "size": "s",
+                    "action": "none",
+                    "disabled": false,
+                    "label": "Посмотреть наличие мест",
+                    "view": "ghost",
+                    "form": "default",
+                    "width": "default",
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Button"
+            },
+            "parentId": "6914adde-6585-b25e-bd6d-3b5165997c8b"
+        },
+        {
+            "id": "6914adde-6585-b25e-bd6d-3b5165997c8b",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "column",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "end",
+                        "justifyContent": "space-between",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "1ec51894-6ee6-beb7-7d58-99c3dce5c3ca"
+        },
+        {
+            "id": "1ec51894-6ee6-beb7-7d58-99c3dce5c3ca",
+            "type": "Layout",
+            "isOuter": false,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "7d646063-7e53-1325-2c4e-062ff29f54ce"
+        },
+        {
+            "id": "7d646063-7e53-1325-2c4e-062ff29f54ce",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "column",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin"
+                    },
+                    "className": "",
+                    "baseProps": {}
+                },
+                "type": "Layout"
+            },
+            "parentId": "9af82a03-692e-3d97-8023-9e3c8710b739"
+        },
+        {
+            "id": "9af82a03-692e-3d97-8023-9e3c8710b739",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "column",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin"
+                    },
+                    "className": "  m-l-m",
+                    "baseProps": {
+                        "margin": {
+                            "marginLeft": "m-l-m"
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "e31f50ae-c7e4-ad31-0ff2-1db9df4a7700"
+        },
+        {
+            "id": "e31f50ae-c7e4-ad31-0ff2-1db9df4a7700",
+            "type": "Layout",
+            "isOuter": true,
+            "props": {
+                "props": {
+                    "constaProps": {
+                        "flex": 1,
+                        "direction": "row",
+                        "horizontalAlign": "left",
+                        "verticalAlign": "top"
+                    },
+                    "styles": {
+                        "alignItems": "normal",
+                        "justifyContent": "start",
+                        "borderSide": "borderNone",
+                        "borderStyle": "hidden",
+                        "borderWidth": "thin",
+                        "borderColor": "color-bg-border"
+                    },
+                    "className": "p-l-s p-r-s p-t-s   p-b-s",
+                    "baseProps": {
+                        "margin": {
+                            "marginLeft": ""
+                        },
+                        "padding": {
+                            "paddingLeft": "p-l-s",
+                            "paddingRight": "p-r-s",
+                            "paddingTop": "p-t-s",
+                            "paddingBottom": "p-b-s"
+                        }
+                    }
+                },
+                "type": "Layout"
+            },
+            "parentId": "62c1f119-16d1-9cf5-c3d6-3b5b39e87daf"
+        }
+    ],
+    "description": "BookingCard"
+}

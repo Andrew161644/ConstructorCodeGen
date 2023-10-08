@@ -23,6 +23,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@consta/uikit": "4.13.0"
+    "@consta/uikit": "4.13.0",
+    "@consta/icons": "0.5.2"
   }
 }

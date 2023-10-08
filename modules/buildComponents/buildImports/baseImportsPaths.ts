@@ -2,7 +2,7 @@ import { ComponentTypes } from "../../../coreTypes";
 
 export type DependencyKeys = ComponentTypes | "React";
 
-export const baseImports: Record<DependencyKeys, string> = {
+const baseImports: Record<DependencyKeys, string> = {
   Layout: "import { Layout } from '@consta/uikit/Layout'",
   Button: "import { Button } from '@consta/uikit/Button'",
   Checkbox: "import { Checkbox } from '@consta/uikit/Checkbox'",
@@ -18,4 +18,12 @@ export const baseImports: Record<DependencyKeys, string> = {
   TextField: "import { TextField } from '@consta/uikit/TextField'",
   Tabs: "import { Tabs } from '@consta/uikit/Tabs'",
   DatePicker: "import { DatePicker } from '@consta/uikit/DatePicker'",
+  Tag: "import { Tag } from '@consta/uikit/Tag'"
 };
+
+export const getImport = (key: DependencyKeys) => {
+  if (!baseImports[key]) {
+    throw `No import for dependency ${key}`
+  }
+  return baseImports[key]
+}
